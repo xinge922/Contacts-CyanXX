@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Label for this app's shared user ID (and thus for all other
+         apps sharing the uid). -->
+    <string name="sharedUserLabel">"Aplicacions bàsiques d'Android"</string>
+
+    <!-- Title for the activity that shows contacts.  This is the name
+         used in the Launcher icon. -->
+    <string name="contactsList">"Contactes"</string>
+
+    <!-- Title for the activity that dials the phone.  This is the name
+         used in the Launcher icon. -->
+    <string name="launcherDialer">"Telèfon"</string>
+
+    <!-- Name of activity that allows users to create shortcuts on the home screen to a contact.
+         This shows up in a list of things like bookmark, folder, music playlist, etc -->
+    <string name="shortcutContact">"Contacte"</string>
+
+    <!-- Name of activity that allows users to create shortcuts on the home screen to dial a contact.
+         This shows up in a list of things like bookmark, folder, music playlist, etc -->
+    <string name="shortcutDialContact">"Marcatge directe"</string>
+
+    <!-- Name of activity that allows users to create shortcuts on the home screen to message (SMS) a contact.
+         This shows up in a list of things like bookmark, folder, music playlist, etc -->
+    <string name="shortcutMessageContact">"Missatge directe"</string>
+
+    <!-- Activity title when the user is selecting a contact for a shortcut. -->
+    <string name="shortcutActivityTitle">"Trieu una drecera de contacte"</string>
+
+    <!-- Activity title when the user is selecting a contact for a direct dial shortcut. -->
+    <string name="callShortcutActivityTitle">"Trieu un número per trucar-hi"</string>
+
+    <!-- Activity title when the user is selecting a contact for a direct message shortcut. -->
+    <string name="messageShortcutActivityTitle">"Trieu un número per enviar-hi un missatge"</string>
+
+    <!-- Title for the activity that shows only starred contacts -->
+    <string name="starredList">"Destacats"</string>
+
+    <!-- Title for the activity that shows only frequently contacted contacts -->
+    <string name="frequentList">"Freqüent"</string>
+
+    <!-- Title for the activity that shows a mix of starred contacts and frequently contacted
+         contacts. -->
+    <string name="strequentList">"Preferits"</string>
+
+    <!-- The title bar when viewing the contact details activity -->
+    <string name="viewContactTitle">"Dades de contacte"</string>
+
+    <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
+         viewing a contact. This string represents the built in way to view the contact. -->
+    <string name="viewContactDesription">"Visualitza el contacte"</string>
+
+    <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
+         editing a contact. This string represents the built in way to edit the contact. -->
+    <string name="editContactDescription">"Edita el contacte"</string>
+
+    <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
+         creating a new contact. This string represents the built in way to create the contact. -->
+    <string name="insertContactDescription">"Crea un contacte"</string>
+
+    <!-- Hint text in the search box when the user hits the Search key while in the contacts app -->
+    <string name="searchHint">"Cerca als contactes"</string>
+
+    <!-- Menu item to search contacts -->
+    <string name="menu_search">"Cerca"</string>
+
+    <!-- Menu item to create a new contact -->
+    <string name="menu_newContact">"Contacte nou"</string>
+
+    <!-- Menu item used to view the details for a specific contact -->
+    <string name="menu_viewContact">"Visualitza el contacte"</string>
+
+    <!-- Menu item used to call a contact, containing the name of the contact to call -->
+    <string name="menu_callNumber">"Truca a <xliff:g id="NAME">%s</xliff:g>"</string>
+
+    <!-- Menu item used to add a star to a contact, which makes that contact show up at the top of favorites -->
+    <string name="menu_addStar">"Afegeix als preferits"</string>
+
+    <!-- Menu item used to remove a star from a contact, making the contact no longer show up at the top of favorites -->
+    <string name="menu_removeStar">"Elimina dels preferits"</string>
+
+    <!-- Menu item used to edit a specific contact -->
+    <string name="menu_editContact">"Edita el contacte"</string>
+
+    <!-- Menu item used to delete a specific contact -->
+    <string name="menu_deleteContact">"Suprimeix el contacte"</string>
+
+    <!-- Menu item used to call a specific contact when viewing the details of that contact. -->
+    <string name="menu_call">"Truca al contacte"</string>
+
+    <!-- Menu item used to send an SMS or MMS message to a specific phone number or a contacts default phone number -->
+    <string name="menu_sendSMS">"Envia un SMS al contacte"</string>
+
+    <!-- Menu item used to send an email message to a specific email address -->
+    <string name="menu_sendEmail">"Envia un correu electrònic"</string>
+
+    <!-- Menu item used to view a contact's address on a map -->
+    <string name="menu_viewAddress">"Mostra l'adreça al mapa"</string>
+
+    <!-- Menu item that makes a phone the default for a contact. The default number used when you
+         try to call a contact without specifying a specific number. -->
+    <string name="menu_makeDefaultNumber">"Converteix-lo en número predeterminat"</string>
+
+    <!-- Menu item that makes an email address the default for a contact. The default email used
+         when you try to email a contact without specifying a specific address. -->
+    <string name="menu_makeDefaultEmail">"Converteix-lo en correu electrònic predeterminat"</string>
+
+    <!-- Menu item used to share the plain-text representation of a specific phone number -->
+    <string name="menu_shareNumber">"Comparteix número"</string>
+
+    <!-- Menu item used to share the plain-text representation of a specific email address -->
+    <string name="menu_shareEmail">"Comparteix correu"</string>
+
+    <!-- Menu item used to share the plain-text representation of a specific address -->
+    <string name="menu_shareAddress">"Comparteix adreça"</string>
+
+    <!-- Menu item that splits an item from the contact detail into a separate aggregate -->
+    <string name="menu_splitAggregate">"Separa"</string>
+
+    <!-- Toast shown after a contact has been split from an aggregate by a user action -->
+    <string name="contactsSplitMessage">"Contactes separats"</string>
+
+    <!-- Title of the confirmation dialog for separating contacts into multiple instances  -->
+    <string name="splitConfirmation_title">"Separació del contacte"</string>
+
+    <!-- Confirmation dialog for separating contacts into multiple instances  -->
+    <string name="splitConfirmation">"Esteu segur que voleu separar aquest contacte en múltiples
+        contactes, un per a cada conjunt d'informació dels que disposa?"
+    </string>
+
+    <!-- Menu item that joins an aggregate with another aggregate -->
+    <string name="menu_joinAggregate">"Uneix"</string>
+
+    <!-- Heading of the Join Contact screen -->
+    <string name="titleJoinContactDataWith">"Unió de contactes"</string>
+
+    <!-- Info blurb on the Join Contact screen -->
+    <string name="blurbJoinContactDataWith">"Seleccioneu el contacte que voleu unir amb <xliff:g id="NAME">%s</xliff:g>."</string>
+
+    <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
+    <string name="showAllContactsJoinItem">"Mostra tots els contactes"</string>
+
+    <!-- List separator for the Join Contact list: Suggestions -->
+    <string name="separatorJoinAggregateSuggestions">"Contactes suggerits"</string>
+
+    <!-- List separator for the Join Contact list: A-Z -->
+    <string name="separatorJoinAggregateAll">"Tots els contactes"</string>
+
+    <!-- Toast shown after two contacts have been joined by a user action -->
+    <string name="contactsJoinedMessage">"Contactes units"</string>
+
+    <!-- Menu item that opens the Options activity for a given contact -->
+    <string name="menu_contactOptions">"Opcions"</string>
+
+    <!-- Title for the Options activity for a given contact -->
+    <string name="contactOptionsTitle">"Opcions"</string>
+
+    <!-- Confirmation dialog title after users selects to delete a contact. -->
+    <string name="deleteConfirmation_title">"Supressió"</string>
+
+    <!-- Confirmation dialog title after users selects clear log. -->
+    <string name="clearConfirmation_title">"Neteja el registre de trucades"</string>
+
+    <!-- Warning dialog contents after users selects to delete a ReadOnly contact. -->
+    <string name="readOnlyContactWarning">"No podeu suprimir contactes de comptes de només lectura, però podeu amagar-los a les llistes de contactes."</string>
+
+    <!-- Warning dialog contents after users selects to delete a contact with ReadOnly and Writable sources. -->
+    <string name="readOnlyContactDeleteConfirmation">"Aquest contacte inclou informació de diversos comptes. La informació dels comptes només de lectura s'ocultarà a les llistes de contactes, però no se suprimirà."</string>
+
+    <!-- Warning dialog contents after users selects to delete a contact with multiple Writable sources. -->
+    <string name="multipleContactDeleteConfirmation">"Si suprimiu aquest contacte se suprimirà informació de diversos comptes."</string>
+
+    <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
+    <string name="deleteConfirmation">"Aquest contacte se suprimirà."</string>
+
+    <!-- Confirmation dialog contents after users selects to clear call log. -->
+    <string name="clearLogConfirmation">"S'esborraran totes les trucades del registre"</string>
+
+    <!-- Menu item to indicate you are done editing a contact and want to save the changes you've made -->
+    <string name="menu_done">"Fet"</string>
+
+    <!-- Menu item to indicate you want to stop editing a contact and NOT save the changes you've made -->
+    <string name="menu_doNotSave">"Retrocedeix"</string>
+
+    <!-- The title of the activity that edits and existing contact -->
+    <string name="editContact_title_edit">"Edita el contacte"</string>
+
+    <!-- The title of the activity that creates a new contact -->
+    <string name="editContact_title_insert">"Contacte nou"</string>
+
+    <!-- The label describing the phonetic pronunciation/reading of a contact name -->
+    <string name="label_phonetic_name">"Fonètic"</string>
+
+    <!-- The label describing the Notes field of a contact. This field allows free form text entry about a contact -->
+    <string name="label_notes">"Notes"</string>
+
+    <!-- The label describing the SIP address field of a contact. [CHAR LIMIT=20] -->
+    <string name="label_sip_address">"Trucada per Internet"</string>
+
+    <!-- The label describing the custom ringtone for a contact -->
+    <string name="label_ringtone">"So de trucada"</string>
+
+    <!-- Hint text for the contact name when editing -->
+    <string name="ghostData_name">"Nom i cognoms"</string>
+
+    <!-- Hint text for the phonetic reading of the contact name when editing -->
+    <string name="ghostData_phonetic_name">"Nom fonètic"</string>
+
+    <!-- Hint text for the organization name when editing -->
+    <string name="ghostData_company">"Empresa"</string>
+
+    <!-- Hint text for the organization title when editing -->
+    <string name="ghostData_title">"Títol"</string>
+
+    <!-- Message displayed in a toast when you try to view the details of a contact that
+         for some reason doesn't exist anymore. -->
+    <string name="invalidContactMessage">"El contacte no existeix."</string>
+
+    <!-- When picking a contact from a list of all contacts there is an entry at the top of the
+         list that allows the user to create a new contact, which this string is used for -->
+    <string name="pickerNewContactHeader">"Crea un contacte nou"</string>
+
+    <!-- Dialog title when you select a label when creating or edit a contact -->
+    <string name="selectLabel">"Selecció d'una etiqueta"</string>
+
+    <!-- Header that expands to list all of the types of phone numbers when editing or creating a phone number for a contact -->
+    <string name="phoneLabelsGroup">"Telèfon"</string>
+
+    <!-- Header that expands to list all of the types of email addresses when editing or creating an email address for a contact -->
+    <string name="emailLabelsGroup">"Correu electrònic"</string>
+
+    <!-- Header that expands to list all of the types of IM account when editing or creating an IM account for a contact -->
+    <string name="imLabelsGroup">"MI"</string>
+
+    <!-- Header that expands to list all of the types of postal addresses when editing or creating an postal address for a contact -->
+    <string name="postalLabelsGroup">"Adreça postal"</string>
+
+    <!-- The order of the items below is important, don't reorder without changing EditContactActivity.java -->
+    <skip/>
+    <!-- The labels that are under the otherLabelsGroup when editing a contact. -->
+    <string-array name="otherLabels">
+        <!-- An organization associated with a contact -->
+        <item>"Organització</item>
+        <!-- A note associated with a contact -->
+        <item>Nota"</item>
+    </string-array>
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText">"No hi ha cap imatge disponible al telèfon."</string>
+
+    <!-- Description of the activity used to set a photo in the pictures application as the icon for a contact -->
+    <string name="attachToContact">"Icona de contacte"</string>
+
+    <!-- Title of the dialog used to set a custom label for a contact detail, like a phone number or email address.
+         For example, this may be used to set a phone number's label to "Vaction house" -->
+    <string name="customLabelPickerTitle">"Nom d'etiqueta personalitzada"</string>
+
+    <!-- The menu item to open the list of groups to display -->
+    <string name="menu_displayGroup">"Opcions de visualització"</string>
+
+    <!-- Title of activity that lets user pick which contact groups to display -->
+    <string name="displayGroups">"Opcions de visualització"</string>
+
+    <!-- Check box label that allows calls to the contact to be sent directly to voicemail -->
+    <string name="send_to_voicemail_checkbox">"Envia les trucades directament al correu de veu"</string>
+
+    <!-- String used to indicate that a contact doesn't have a custom ringtone -->
+    <string name="default_ringtone">"Predeterminat"</string>
+
+    <!-- The button/menu item that allows you to change an existing contact picture -->
+    <string name="changePicture">"Canvia la icona"</string>
+
+    <!-- The menu item that allows you to remove a picture from a contact -->
+    <string name="removePicture">"Elimina la icona"</string>
+
+    <!-- The text displayed when the contacts list is empty while displaying all contacts -->
+    <string name="noContacts">"No hi ha contactes."</string>
+
+    <!-- The text displayed when the contacts list is empty while displaying results after searching contacts -->
+    <string name="noMatchingContacts">"No s'ha trobat cap contacte coincident."</string>
+
+    <!-- The text displayed when the contacts list is empty while displaying only contacts that have phone numbers -->
+    <string name="noContactsWithPhoneNumbers">"No hi ha cap contacte amb número de telèfon."</string>
+
+    <!-- The title of the filter to only show contacts with phone numbers -->
+    <string name="showFilterPhones">"Només els contactes amb telèfons"</string>
+
+    <!-- The description of the filter to only show contacts with phone numbers -->
+    <string name="showFilterPhonesDescrip">"Mostra només els contactes que tenen números de telèfon"</string>
+
+    <!-- The header over the list of all contacts groups -->
+    <string name="headerContactGroups">"Trieu els contactes que voleu mostrar"</string>
+
+    <!-- The description of a group with the total number of contacts -->
+    <plurals name="groupDescrip">
+        <item quantity="other"><xliff:g id="count">%0$d</xliff:g> contactes</item>
+    </plurals>
+
+    <!-- The description of a group with the total number of contacts, and the total number of contacts with phone numbers -->
+    <plurals name="groupDescripPhones">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> contactes, <xliff:g id="countWithPhones">%2$d</xliff:g> amb telèfon</item>
+    </plurals>
+
+    <!-- Displayed in a spinner dialog after the user creates a contact and it's being saved to the database -->
+    <string name="savingContact">"S'està desant el contacte..."</string>
+
+    <!-- Displayed in a spinner dialog as user changes to display options are saved -->
+    <string name="savingDisplayGroups">"S'estan desant les opcions de visualització..."</string>
+
+    <!-- Toast displayed when a contact is saved -->
+    <string name="contactSavedToast">"S'ha desat el contacte."</string>
+
+    <!-- Toast displayed when saving a contact failed -->
+    <string name="contactSavedErrorToast">"Error. No s'han pogut desar els canvis al contacte."</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" is selected -->
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="one">Mostrant 1 contacte amb telèfon</item>
+        <item quantity="other">Mostrant <xliff:g id="count">%d</xliff:g> contactes amb telèfon</item>
+    </plurals>
+
+    <!-- Displayed at the top of the contacts showing the zero as total number of contacts visible when "Only contacts with phones" is selected -->
+    <string name="listTotalPhoneContactsZero">"No hi ha cap contacte visible amb número de telèfon"</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" not selected -->
+    <plurals name="listTotalAllContacts">
+        <item quantity="one">Mostrant 1 contacte</item>
+        <item quantity="other">Mostrant <xliff:g id="count">%d</xliff:g> contactes</item>
+    </plurals>
+
+    <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "Only contacts with phones" not selected -->
+    <string name="listTotalAllContactsZero">"No hi ha cap contacte visible"</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts found when "Only contacts with phones" not selected -->
+    <plurals name="listFoundAllContacts">
+        <item quantity="one">"S'ha trobat 1 contacte"</item>
+        <item quantity="other">"S'han trobat <xliff:g id="count">%d</xliff:g> contactes"</item>
+    </plurals>
+
+    <!-- Displayed at the top of the contacts showing the zero total number of contacts found when "Only contacts with phones" not selected -->
+    <string name="listFoundAllContactsZero">"No s'ha trobat el contacte"</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts found when typing search query -->
+    <plurals name="searchFoundContacts">
+        <item quantity="one">1 contacte</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> contactes</item>
+    </plurals>
+
+    <!-- The description text for the contacts tab. Space is limited for this string, so the shorter the better -->
+    <string name="contactsIconLabel">"Contactes"</string>
+
+    <!-- The description text for the favorites tab. Space is limited for this string, so the shorter the better -->
+    <string name="contactsFavoritesLabel">"Preferits"</string>
+
+    <!-- The description text for the dialer tab. Space is limited for this string, so the shorter the better -->
+    <string name="dialerIconLabel">"Telèfon"</string>
+
+    <!-- The description text for the call log tab. Space is limited for this string, so the shorter the better -->
+    <string name="recentCallsIconLabel">"Registre"</string>
+    <string name="liveFolderAll">"Tots"</string>
+    <string name="liveFolderFavorites">"Destacats"</string>
+    <string name="liveFolderPhone">"Contactes amb telèfon"</string>
+
+    <!-- Menu item used to send an SMS or MMS message to a phone number  -->
+    <string name="menu_sendTextMessage">"Envia un missatge de text"</string>
+
+    <!-- Menu item used to call a contact from the call log -->
+    <string name="recentCalls_callNumber">"Truca a <xliff:g id="NAME">%s</xliff:g>"</string>
+
+    <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
+    <string name="recentCalls_editNumberBeforeCall">"Edita el número abans de trucar"</string>
+
+    <!--Menu item used to add a number from the call log to Blacklist  -->
+    <string name="recentCalls_addToBlacklist">"Afegeix a la llista negra"</string>
+
+    <!-- Menu item used to add a number from the call log to contacts -->
+    <string name="recentCalls_addToContact">"Afegeix als contactes"</string>
+
+    <!-- Menu item used to remove a single call from the call log -->
+    <string name="recentCalls_removeFromRecentList">"Elimina del registre de trucades"</string>
+
+    <!-- Menu item used to remove all calls from the call log -->
+    <string name="recentCalls_deleteAll">"Esborra el registre de trucades"</string>
+
+    <!-- Text displayed when the call log is empty -->
+    <string name="recentCalls_empty">"El registre de trucades és buit."</string>
+
+    <!-- Title of the confirmation dialog for clearing the call log  -->
+    <string name="clearCallLogConfirmation_title">"Esborrament del registre de trucades"</string>
+
+    <!-- Confirmation dialog for clearing the call log  -->
+    <string name="clearCallLogConfirmation">"Esteu segur que voleu esborrar el registre de trucades?"</string>
+
+    <!-- The title of a dialog that displays the IMEI of the phone -->
+    <string name="imei">"IMEI"</string>
+
+    <!-- The title of a dialog that displays the MEID of the CDMA phone -->
+    <string name="meid">"MEID"</string>
+
+    <!-- String used for displaying calls to the voicemail number in the call log -->
+    <string name="voicemail">"Correu de veu"</string>
+
+    <!-- String used to display calls from unknown numbers in the call log -->
+    <string name="unknown">"Desconegut"</string>
+
+    <!-- String used to display calls from private numbers in the call log -->
+    <string name="private_num">"Número privat"</string>
+
+    <!-- String used to display calls from pay phone in the call log -->
+    <string name="payphone">"Telèfon de monedes"</string>
+
+    <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
+         to dial using the physical keyboard -->
+    <string name="dialerKeyboardHintText">"Utilitzeu el teclat per marcar"</string>
+
+    <!-- Hint text displayed in the "digits" field above the dialer's
+         dialpad, if there's already a call in progress.  (This hint
+         reminds the user that the dialer will add a new call, as opposed
+         to sending DTMF tones over the current call.) -->
+    <string name="dialerDialpadHintText">"Marqueu per afegir una trucada"</string>
+
+    <!-- Dialog text displayed when loading a phone number from the SIM card for speed dial -->
+    <string name="simContacts_emptyLoading">"S'està carregant des de la targeta SIM..."</string>
+
+    <!-- Dialog title displayed when loading a phone number from the SIM card for speed dial -->
+    <string name="simContacts_title">"Contactes de la targeta SIM"</string>
+
+    <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts, and contact syncing is enabled -->
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">"No teniu cap contacte per mostrar. (Si acabeu d'afegir un compte, la sincronització dels contactes pot trigar una estona.)"</string>
+
+    <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts -->
+    <string name="noContactsHelpTextForCreateShortcut">"No teniu cap contacte per mostrar."</string>
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled -->
+    <string name="noContactsHelpText">"No teniu contactes per mostrar.\n\nPer a afegir contactes premeu <font fgcolor="#ffffffff"><b>Menú</b></font> i:\n
+        \n<li><font fgcolor="#ffffffff"><b>Comptes</b></font> per afegir o configurar un compte amb contactes per sincronitzar al telèfon\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nou contacte</b></font> per a crear un contacte nou\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importa/Exporta</b></font>\n</li>"
+    </string>
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled -->
+    <string name="noContactsHelpTextWithSync">"No teniu contactes per mostrar. (Si acabeu d'afegir un compte pot trigar uns minuts a sincronitzar els contactes.)\n\nPer a afegir contactes premeu <font fgcolor="#ffffffff"><b>Menú</b></font> i:\n
+        \n<li><font fgcolor="#ffffffff"><b>Comptes</b></font> per afegir o configurar un compte amb contactes per sincronitzar al telèfon\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Opcions de visualització</b></font> per triar quins contactes són visibles\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nou contacte</b></font> per a crear un contacte nou\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importa/Exporta</b></font>\n</li>"
+    </string>
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma)-->
+    <string name="noContactsNoSimHelpText">"No teniu contactes per mostrar.\n\nPer a afegir contactes premeu <font fgcolor="#ffffffff"><b>Menú</b></font> i:\n
+        \n<li><font fgcolor="#ffffffff"><b>Comptes</b></font> per afegir o configurar un compte amb contactes per sincronitzar al telèfon\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nou contacte</b></font> per a crear un contacte nou\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importa/Exporta</b></font>\n</li>"
+    </string>
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma) -->
+    <string name="noContactsNoSimHelpTextWithSync">"No teniu contactes per mostrar. (Si acabeu d'afegir un compte pot trigar uns minuts a sincronitzar els contactes.)\n\nPer a afegir contactes premeu "<font fgcolor="#ffffffff"><b>Menú</b></font> i:\n
+        \n<li><font fgcolor="#ffffffff"><b>Comptes</b></font> per afegir o configurar un compte amb contactes per sincronitzar al telèfon\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Opcions de visualització</b></font> per triar quins contactes són visibles\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nou contacte</b></font> per a crear un contacte nou\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importa/Exporta</b></font>\n</li>"
+    </string>
+
+    <!-- Displayed full screen when the user has no favorites and they are displaying the favorites tab -->
+    <string name="noFavoritesHelpText">"No teniu preferits.\n\nPer a afegir un contacte a la llista de preferits:\n
+    <li>Toca la pestanya <b>Contactes</b>\n</li>
+        \n<li>Toca el contacte que vols afegir als preferits\n</li>
+        \n<li>Toca l\'estrella del costat del nom del contacte\n</li>"
+    </string>
+
+    <!-- Activity title for the activity that lets the user choose which groups of contacts to sync from the server -->
+
+
+    <!-- Live folder label for all contacts -->
+    <string name="liveFolder_all_label">"Tots els contactes"</string>
+
+    <!-- Live folder label for only starred contacts -->
+    <string name="liveFolder_favorites_label">"Destacats"</string>
+
+    <!-- Live folder label for all contacts with phone numbers -->
+    <string name="liveFolder_phones_label">"Telèfons"</string>
+
+    <!-- Item label: jump to the in-call DTMF dialpad.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_useDtmfDialpad">"Utilitza el teclat de tons"</string>
+
+    <!-- Item label: jump to the in-call UI.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_returnToInCallScreen">"Torna a la trucada en curs"</string>
+
+    <!-- Item label: use the Dialer's dialpad to add another call.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_addAnotherCall">"Afegeix una trucada"</string>
+
+    <!-- Title bar for call detail screen -->
+    <string name="callDetailTitle">"Detalls de la trucada"</string>
+
+    <!-- Toast for call detail screen when couldn't read the requested details -->
+    <string name="toast_call_detail_error">"No s'han pogut llegir els detalls de la trucada sol·licitada."</string>
+
+    <!-- Title for incoming call details screen -->
+    <string name="type_incoming">"Trucada entrant"</string>
+
+    <!-- Title for outgoing call details screen -->
+    <string name="type_outgoing">"Trucada de sortida"</string>
+
+    <!-- Title for missed call details screen -->
+    <string name="type_missed">"Trucada perduda"</string>
+
+    <!-- Description for incoming calls going to voice mail vs. not -->
+    <string name="actionIncomingCall">"Trucades entrants"</string>
+
+    <!-- Action string for calling back a number in the call log -->
+    <string name="callBack">"Torna la trucada"</string>
+
+    <!-- Action string for calling a number in the call log again -->
+    <string name="callAgain">"Torna a trucar"</string>
+
+    <!-- Action string for returning a missed call in the call log -->
+    <string name="returnCall">"Retorna la trucada"</string>
+
+    <!-- A nicely formatted call duration displayed when viewing call details. For example "42 mins 28 secs" -->
+    <string name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%1$s</xliff:g> min <xliff:g id="SECONDS">%2$s</xliff:g> s"</string>
+
+    <!-- A list separator for the Favorites tab indicating that items below it are frequently contacted contacts rather than starred contacts -->
+    <string name="favoritesFrquentSeparator">"Contactats sovint"</string>
+
+    <!-- Dialog title when prompting before creating a contact -->
+    <string name="add_contact_dlg_title">"Addició d'un contacte"</string>
+    <!-- Dialog message when prompting before creating a contact. Includes
+         the email address, e.g. "Add xyz@foo.com to contacts?" -->
+    <string name="add_contact_dlg_message_fmt">"Voleu afegir "<xliff:g id="EMAIL">%s</xliff:g>" als contactes?"</string>
+
+    <!-- Label for the all data tab in the view and edit card -->
+    <string name="all_tab_label">"Totes"</string>
+
+    <!-- String describing the image on ImageButton one
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_one">"un"</string>
+
+    <!-- String describing the image on ImageButton two
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_two">"dos"</string>
+
+    <!-- String describing the image on ImageButton three
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_three">"tres"</string>
+
+    <!-- String describing the image on ImageButton four
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_four">"quatre"</string>
+
+    <!-- String describing the image on ImageButton five
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_five">"cinc"</string>
+
+    <!-- String describing the image on ImageButton six
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_six">"sis"</string>
+
+    <!-- String describing the image on ImageButton seven
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_seven">"set"</string>
+
+    <!-- String describing the image on ImageButton eight
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_eight">"vuit"</string>
+
+    <!-- String describing the image on ImageButton nine
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_nine">"nou"</string>
+
+    <!-- String describing the image on ImageButton star
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_star">"destaca"</string>
+
+    <!-- String describing the image on ImageButton zero
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_zero">"zero"</string>
+
+    <!-- String describing the image on ImageButton pound
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_pound">"coixinet"</string>
+
+    <!-- String describing the Voicemail ImageButton
+
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_voicemail_button">"contestador"</string>
+
+    <!-- String describing the Dial ImageButton
+
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_dial_button">"marca"</string>
+
+    <!-- String describing the Delete/Backspace ImageButton
+
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_delete_button">"retrocés"</string>
+
+    <!-- String describing the digits text box containing the number to dial.
+
+         Used by AccessibilityService to announce the purpose of the view.
+    -->
+    <string name="description_digits_edittext">"número que es marcarà"</string>
+
+    <!-- String describing the Contact Photo Image
+
+         Used by AccessibilityService to announce the purpose of the view.
+    -->
+    <string name="description_contact_photo">"foto del contacte"</string>
+
+    <!-- String describing the Contact Editor Minus button
+
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_minus_button">"menys"</string>
+
+    <!-- String describing the Contact Editor Plus button
+
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_plus_button">"més"</string>
+
+    <!-- Dialog title shown when USB storage does not exist [CHAR LIMIT=25] -->
+    <string name="no_sdcard_title" product="nosdcard">"Emmag. USB no disp."</string>
+    <!-- Dialog title shown when SD Card does not exist -->
+    <string name="no_sdcard_title" product="default">"Emmag. USB no disp."</string>
+
+    <!-- Dialog message shown when USB storage does not exist [CHAR LIMIT=30] -->
+    <string name="no_sdcard_message" product="nosdcard">"Cap emmagatzematge USB detectat"</string>
+    <!-- Dialog message shown when SDcard does not exist -->
+    <string name="no_sdcard_message" product="default">"Cap emmagatzematge USB detectat"</string>
+
+    <!-- Dialog title shown when searching VCard data from SD Card -->
+    <string name="searching_vcard_title">"S'està cercant la vCard"</string>
+
+    <!-- Action string for selecting SIM for importing contacts -->
+    <string name="import_from_sim">"Importa des de la targeta SIM"</string>
+
+    <!-- Action string for selecting USB storage for importing contacts [CHAR LIMIT=25] -->
+    <string name="import_from_sdcard" product="nosdcard">"Importa des de l'emmagatzematge USB"</string>
+    <!-- Action string for selecting SD Card for importing contacts -->
+    <string name="import_from_sdcard" product="default">"Importa des de l'emmagatzematge USB"</string>
+
+    <!-- Action that exports all contacts to USB storage [CHAR LIMIT=25] -->
+    <string name="export_to_sdcard" product="nosdcard">"Exporta a l'emmagatzematge USB"</string>
+    <!-- Action that exports all contacts to SD Card -->
+    <string name="export_to_sdcard" product="default">"Exporta a l'emmagatzematge USB"</string>
+
+    <!-- Action that shares visible contacts -->
+    <string name="share_visible_contacts">"Comparteix els contactes visibles"</string>
+
+    <!-- One of alternatives shown when the system allows a user to select how many vCard files
+         should be imported. This message shows only when the system is certain that there's more
+         than one vCard files available in the system. -->
+    <string name="import_one_vcard_string">"Importa un fitxer vCard"</string>
+
+    <!-- One of alternatives shown when the system allows a user to select how many vCard files
+         should be imported. This message shows only when the system is certain that there's more
+         than one vCard files available in the system. -->
+    <string name="import_multiple_vcard_string">"Importa diversos fitxers vCard"</string>
+
+    <!-- One of alternatives shown when the system allows a user to select how many vCard files
+         should be imported. This message shows only when the system is certain that there's more
+         than one vCard files available in the system. -->
+    <string name="import_all_vcard_string">"Importa tots els fitxers vCard"</string>
+
+    <!-- Dialog message shown when searching VCard data from SD Card [CHAR LIMIT=NONE] -->
+    <string name="searching_vcard_message" product="nosdcard">"S'estan cercant dades de vCard a l'emmagatzematge USB"</string>
+    <!-- Dialog message shown when searching VCard data from SD Card -->
+    <string name="searching_vcard_message" product="default">"S'estan cercant dades de vCard a l'emmagatzematge USB"</string>
+
+    <!-- Dialog title shown when scanning VCard data failed. [CHAR LIMIT=NONE] -->
+    <string name="scanning_sdcard_failed_title" product="nosdcard">"S'ha produït un error en escanejar l'emmagatzematge USB"</string>
+    <!-- Dialog title shown when scanning VCard data failed. -->
+    <string name="scanning_sdcard_failed_title" product="default">"S'ha produït un error en escanejar l'emmagatzematge USB"</string>
+
+    <!-- Dialog message shown when searching VCard data failed.
+         An exact reason for the failure should [CHAR LIMIT=NONE] -->
+    <string name="scanning_sdcard_failed_message" product="nosdcard">"S'ha produït un error en escanejar l'emmagatzematge USB (motiu: "<xliff:g id="FAIL_REASON">%s</xliff:g>")"</string>
+    <!-- Dialog message shown when searching VCard data failed.
+         An exact reason for the failure should -->
+    <string name="scanning_sdcard_failed_message" product="default">"S'ha produït un error en escanejar l'emmagatzematge USB (motiu: "<xliff:g id="FAIL_REASON">%s</xliff:g>")"</string>
+
+    <!-- The failed reason shown when Contacts app (especially vCard importer/exporter)
+         emitted some I/O error. Exact reason will be appended by the system. -->
+    <string name="fail_reason_io_error">"Error d'E/S"</string>
+
+    <!-- The failed reason shown when vCard parser was not able to be parsed by the current vCard
+         implementation. This might happen even when the input vCard is completely valid, though
+         we believe it is rather rare in the actual world. -->
+    <string name="fail_reason_vcard_parse_error">"No s'ha pogut analitzar la vCard per un motiu inesperat"</string>
+
+    <!-- The failed reason shown when the current vCard importer cannot parse the file since the
+         parser is incomplete (actually, there's missing part in the current vCard parser, though
+         our understanding is that the functionality missed by the current vCard parser
+         is rarely needed in the actual vCard...). -->
+    <string name="fail_reason_vcard_not_supported_error">"No s'ha pogut analitzar la vCard, tot i que sembla tenir un format vàlid, perquè no és compatible amb la implementació actual."</string>
+
+    <!-- The failed reason shown when the system could not find any vCard file
+         (with extension ".vcf" in SDCard.) [CHAR LIMIT=NONE] -->
+    <string name="fail_reason_no_vcard_file" product="nosdcard">"No s'ha trobat cap fitxer vCard a l'emmagatzematge USB"</string>
+    <!-- The failed reason shown when the system could not find any vCard file
+         (with extension ".vcf" in SDCard.) -->
+    <string name="fail_reason_no_vcard_file" product="default">"No s'ha trobat cap fitxer vCard a l'emmagatzematge USB"</string>
+
+    <!-- The failed reason shown when the import of some of vCard files failed during multiple vCard
+         files import. It includes the case where all files were failed to be imported. -->
+    <string name="fail_reason_failed_to_read_files">"No s'ha pogut importar un o més fitxers (%s)."</string>
+
+    <!-- The failed reason which should not be shown but it may in some buggy condition. -->
+    <string name="fail_reason_unknown">"Error desconegut"</string>
+
+    <!-- Dialog title shown when a user is asked to select VCard file -->
+    <string name="select_vcard_title">"Selecció del fitxer vCard"</string>
+
+    <!-- The message shown while reading a vCard file/entry. The first argument is like
+         "Reading VCard" or "Reading VCard files" and the second is the display name of the current
+         data being parsed -->
+    <string name="progress_shower_message">"<xliff:g id="ACTION">%1$s</xliff:g>"\n"<xliff:g id="FILENAME">%2$s</xliff:g>"</string>
+
+    <!-- Dialog title shown when reading VCard data -->
+    <string name="reading_vcard_title">"S'està llegint la vCard"</string>
+
+    <!-- Dialog message shown when reading a VCard file -->
+    <string name="reading_vcard_message">"S'estan llegint els fitxers vCard"</string>
+
+    <!-- Dialog title shown when reading VCard data failed -->
+    <string name="reading_vcard_failed_title">"S'ha produït un error en llegir les dades de la vCard"</string>
+
+    <!-- Message while reading one vCard file "(current number) of (total number) contacts" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
+    <string name="reading_vcard_contacts">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> de <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> contactes"</string>
+
+    <!-- Message while reading multiple vCard files "(current number) of (total number) files" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
+    <string name="reading_vcard_files">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> de <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> fitxers"</string>
+
+    <!-- Dialog title shown when a user confirms whether he/she export Contact data -->
+    <string name="confirm_export_title">"Confirmació de l'exportació"</string>
+
+    <!-- Dialog message shown when a user confirms whether he/she export Contact data -->
+    <string name="confirm_export_message">"Esteu segur que voleu exportar la llista de contactes a "<xliff:g id="VCARD_FILENAME">%s</xliff:g>"?"</string>
+
+    <!-- Dialog title shown when exporting Contact data failed -->
+    <string name="exporting_contact_failed_title">"No s'han pogut exportar les dades de contacte"</string>
+
+    <!-- Dialog message shown when exporting Contact data failed -->
+    <string name="exporting_contact_failed_message">"No s'han pogut exportar les dades de contacte."\n"Motiu de l'error: "<xliff:g id="FAIL_REASON">%s</xliff:g>""</string>
+
+    <!-- The failed reason shown when there's no contact which is allowed to be exported.
+         Note that user may have contacts data but all of them are probably not allowed to be
+         exported because of security/permission reasons. -->
+    <string name="fail_reason_no_exportable_contact">"No hi ha cap contacte que es pugui exportar"</string>
+
+    <!-- The failed reason shown when vCard exporter could not create a file for the vCard since
+         there are too many files relevant to vCard. [CHAR LIMIT=NONE] -->
+    <string name="fail_reason_too_many_vcard" product="nosdcard">"Massa fitxers vCard a l'emmagatzematge USB"</string>
+    <!-- The failed reason shown when vCard exporter could not create a file for the vCard since
+         there are too many files relevant to vCard. -->
+    <string name="fail_reason_too_many_vcard" product="default">"Massa fitxers vCard a l'emmagatzematge USB"</string>
+
+    <!-- The failed reason shown when the given file name is too long for the system.
+         The length limit of each file is different in each Android device, so we don't need to
+         mention it here. -->
+    <string name="fail_reason_too_long_filename">"El nom de fitxer obligatori és massa llarg ("<xliff:g id="FILENAME">%s</xliff:g>")"</string>
+
+    <!-- Dialog title shown when the application is exporting contact data outside -->
+    <string name="exporting_contact_list_title">"S'estan exportant les dades de contacte"</string>
+
+    <!-- Message shown when the application is exporting contact data outside -->
+    <string name="exporting_contact_list_message">"S'estan exportant les dades de contacte a "<xliff:g id="FILE_NAME">%s</xliff:g>""</string>
+
+    <!-- The failed reason shown when contacts exporter fails to be initialized.
+         Some exact reason must follow this. -->
+    <string name="fail_reason_could_not_initialize_exporter">"No s'ha pogut inicialitzar l'exportador: "<xliff:g id="EXACT_REASON">%s</xliff:g>""</string>
+
+    <!-- The failed reason shown when some error happend during contacts export.
+         Some exact reason must follow this. -->
+    <string name="fail_reason_error_occurred_during_export">"S'ha produït un error durant l'exportació: "<xliff:g id="EXACT_REASON">%s</xliff:g>""</string>
+
+    <!-- The error reason the vCard composer "may" emit when database is corrupted or
+         something is going wrong. Usually users should not see this text. -->
+    <string name="composer_failed_to_get_database_infomation">"No s'ha pogut obtenir la informació de la base de dades"</string>
+
+    <!-- This error message shown when the user actually have no contact
+         (e.g. just after data-wiping), or, data providers of the contact list prohibits their
+         contacts from being exported to outside world via vcard exporter, etc. -->
+    <string name="composer_has_no_exportable_contact">"No hi ha cap contacte que es pugui exportar. Si teniu contactes al telèfon, pot ser que l'exportació a fora del telèfon estigui prohibida per un proveïdor de dades."</string>
+
+    <!-- The error reason the vCard composer may emit when vCard composer is not initialized
+         even when needed.
+         Users should not usually see this error message. -->
+    <string name="composer_not_initialized">"El creador de vCard no s'ha inicialitzat correctament"</string>
+
+    <!-- The failed reason shown when vCard importer/exporter could not open the file
+         specified by a user. The file name should be in the message. -->
+    <string name="fail_reason_could_not_open_file">"No s'ha pogut obrir "<xliff:g id="FILE_NAME">%1$s</xliff:g>": <xliff:g id="EXACT_REASON">%2$s</xliff:g>"</string>
+
+    <!-- Message in progress bar while exporting contact list to a file "(current number) of (total number) contacts" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
+    <string name="exporting_contact_list_progress">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> de <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> contactes"</string>
+
+    <!-- The string used to describe Contacts as a searchable item within system search settings. -->
+    <string name="search_settings_description">"Noms dels contactes"</string>
+
+    <!-- Menu items for dialpad options as part of Pause and Wait ftr -->
+    <string name="add_2sec_pause">"Afegeix una pausa de 2 segons"</string>
+    <string name="add_wait">"Afegeix espera"</string>
+
+    <!-- Title for the call disambiguation dialog -->
+    <string name="call_disambig_title">"Trucada mitjançant"</string>
+
+    <!-- Title for the sms disambiguation dialog -->
+    <string name="sms_disambig_title">"Envia un SMS amb"</string>
+
+    <!-- Message next to disamgiguation dialog check box -->
+    <string name="make_primary">"Recorda aquesta selecció"</string>
+
+    <!-- Shown as a toast when the user taps on a Fast-Track icon, and no application
+         was found that could perform the selected action -->
+    <string name="quickcontact_missing_app">"No s'ha trobat cap aplicació per processar aquesta acció"</string>
+
+    <!-- Shown as the checkbox label that, when checked, will store remember the
+         selected choice and shortcut to it in the future.  For example, this would
+         make a selected phone number the default. -->
+    <string name="quickcontact_remember_choice">"Recorda aquesta selecció"</string>
+
+    <!-- Shown as the header name for a person when the name is missing or unknown. -->
+    <string name="quickcontact_missing_name">"Desconegut"</string>
+
+    <!-- Text that is shown in the Badge, when there is no data to display -->
+    <string name="quickcontact_no_data">"Sense dades"</string>
+
+    <!-- The menu item to open the list of accounts -->
+    <string name="menu_accounts">"Comptes"</string>
+
+    <!-- The menu item to bulk import or bulk export contacts from SIM card or SD card. -->
+    <string name="menu_import_export">"Importa/Exporta"</string>
+
+    <!-- Dialog title when selecting the bulk operation to perform from a list. -->
+    <string name="dialog_import_export">"Importació/Exportació de contactes"</string>
+
+    <!-- The menu item to share the currently viewed contact -->
+    <string name="menu_share">"Comparteix"</string>
+
+    <!-- Dialog title when picking the application to share a contact with. -->
+    <string name="share_via">"Comparteix el contacte mitjançant"</string>
+
+    <!-- Toast indicating that sharing a contact has failed. -->
+    <string name="share_error">"Aquest contacte no es pot compartir."</string>
+
+    <!-- Header that expands to list all name types when editing a structured name of a contact -->
+    <string name="nameLabelsGroup">"Nom"</string>
+    <!-- Header that expands to list all nickname types when editing a nickname of a contact -->
+    <string name="nicknameLabelsGroup">"Àlies"</string>
+    <!-- Header that expands to list all organization types when editing an organization of a contact -->
+    <string name="organizationLabelsGroup">"Organització"</string>
+    <!-- Header that expands to list all website types when editing a website of a contact -->
+    <string name="websiteLabelsGroup">"Lloc web"</string>
+    <!-- Header that expands to list all event types when editing an event of a contact -->
+    <string name="eventLabelsGroup">"Esdeveniment"</string>
+
+    <!-- Single-character overlay for home phone numbers when creating desktop shortcuts -->
+    <string name="type_short_home">"C"</string>
+    <!-- Single-character overlay for mobile phone numbers when creating desktop shortcuts -->
+    <string name="type_short_mobile">"M"</string>
+    <!-- Single-character overlay for work phone numbers when creating desktop shortcuts -->
+    <string name="type_short_work">"F"</string>
+    <!-- Single-character overlay for pager phone numbers when creating desktop shortcuts -->
+    <string name="type_short_pager">"C"</string>
+    <!-- Single-character overlay for other phone numbers when creating desktop shortcuts -->
+    <string name="type_short_other">"A"</string>
+
+    <!-- In edit dialog, shown if the contact is marked as being read-only -->
+    <string name="edit_read_only">"Aquest contacte és només de lectura"</string>
+
+    <!-- Shown as the header title over a collapsible section that, by default, hides
+         secondary contact detail edit fields, such as birthday. -->
+    <string name="edit_secondary_collapse">"Més"</string>
+
+    <string name="dialog_primary_name">"Nom principal"</string>
+    <string name="dialog_new_contact_account">"Crea el contacte en un compte"</string>
+
+    <string name="menu_sync_remove">"Elimina el grup de sincronització"</string>
+    <string name="dialog_sync_add">"Afegeix un grup de sincronització"</string>
+    <string name="display_more_groups">"Més grups..."</string>
+
+    <!-- List title for a special contacts group that covers all contacts.-->
+    <string name="display_ungrouped">"Tots els altres contactes"</string>
+
+    <!-- List title for a special contacts group that covers all contacts that
+         aren't members of any other group. -->
+    <string name="display_all_contacts">"Tots els contactes"</string>
+
+    <!-- Warning message given to users just before they remove a currently syncing
+         group that would also cause all ungrouped contacts to stop syncing. -->
+    <string name="display_warn_remove_ungrouped">"Si s'elimina "<xliff:g id="GROUP">%s</xliff:g>" de la sincronització, també s'eliminaran els contactes no agrupats de la sincronització."</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the phone
+         and will not be synced. -->
+    <string name="account_phone">"Només telèfon, sense sincronitzar"</string>
+
+    <!-- Action string for calling a custom phone number -->
+    <string name="call_custom">"Truca a <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <!-- Action string for calling a home phone number -->
+    <string name="call_home">"Truca a casa"</string>
+    <!-- Action string for calling a mobile phone number -->
+    <string name="call_mobile">"Truca al mòbil"</string>
+    <!-- Action string for calling a work phone number -->
+    <string name="call_work">"Truca a la feina"</string>
+    <!-- Action string for calling a work fax phone number -->
+    <string name="call_fax_work">"Truca al fax de la feina"</string>
+    <!-- Action string for calling a home fax phone number -->
+    <string name="call_fax_home">"Truca al fax particular"</string>
+    <!-- Action string for calling a pager phone number -->
+    <string name="call_pager">"Truca al cercapersones"</string>
+    <!-- Action string for calling an other phone number -->
+    <string name="call_other">"Truca a"</string>
+    <!-- Action string for calling a callback number -->
+    <string name="call_callback">"Truca al número de crida de retorn"</string>
+    <!-- Action string for calling a car phone number -->
+    <string name="call_car">"Truca al cotxe"</string>
+    <!-- Action string for calling a company main phone number -->
+    <string name="call_company_main">"Truca el telèfon principal de l'empresa"</string>
+    <!-- Action string for calling a ISDN phone number -->
+    <string name="call_isdn">"Truca a l'XDSI"</string>
+    <!-- Action string for calling a main phone number -->
+    <string name="call_main">"Truca al telèfon principal"</string>
+    <!-- Action string for calling an other fax phone number -->
+    <string name="call_other_fax">"Truca al fax"</string>
+    <!-- Action string for calling a radio phone number -->
+    <string name="call_radio">"Truca a la ràdio"</string>
+    <!-- Action string for calling a Telex phone number -->
+    <string name="call_telex">"Truca al tèlex"</string>
+    <!-- Action string for calling a TTY/TDD phone number -->
+    <string name="call_tty_tdd">"Truca a TTY/TDD"</string>
+    <!-- Action string for calling a work mobile phone number -->
+    <string name="call_work_mobile">"Truca al mòbil de la feina"</string>
+    <!-- Action string for calling a work pager phone number -->
+    <string name="call_work_pager">"Truca al cercapersones de la feina"</string>
+    <!-- Action string for calling an assistant phone number -->
+    <string name="call_assistant">"Truca a <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <!-- Action string for calling a MMS phone number -->
+    <string name="call_mms">"Truca al número MMS"</string>
+
+    <!-- Action string for sending an SMS to a custom phone number -->
+    <string name="sms_custom">"Envia un SMS a <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <!-- Action string for sending an SMS to a home phone number -->
+    <string name="sms_home">"Envia un SMS al número particular"</string>
+    <!-- Action string for sending an SMS to a mobile phone number -->
+    <string name="sms_mobile">"Envia un SMS al mòbil"</string>
+    <!-- Action string for sending an SMS to a work phone number -->
+    <string name="sms_work">"Envia un SMS a la feina"</string>
+    <!-- Action string for sending an SMS to a work fax phone number -->
+    <string name="sms_fax_work">"Envia un SMS al fax de la feina"</string>
+    <!-- Action string for sending an SMS to a home fax phone number -->
+    <string name="sms_fax_home">"Envia un SMS al fax particular"</string>
+    <!-- Action string for sending an SMS to a pager phone number -->
+    <string name="sms_pager">"Envia un SMS al cercapersones"</string>
+    <!-- Action string for sending an SMS to an other phone number -->
+    <string name="sms_other">"Envia un SMS"</string>
+    <!-- Action string for sending an SMS to a callback number -->
+    <string name="sms_callback">"Envia un SMS a la crida de retorn"</string>
+    <!-- Action string for sending an SMS to a car phone number -->
+    <string name="sms_car">"Envia un SMS al cotxe"</string>
+    <!-- Action string for sending an SMS to a company main phone number -->
+    <string name="sms_company_main">"Envia un SMS al telèfon principal de l'empresa"</string>
+    <!-- Action string for sending an SMS to a ISDN phone number -->
+    <string name="sms_isdn">"Envia un SMS a l'XDSI"</string>
+    <!-- Action string for sending an SMS to a main phone number -->
+    <string name="sms_main">"Envia un SMS al telèfon principal"</string>
+    <!-- Action string for sending an SMS to an other fax phone number -->
+    <string name="sms_other_fax">"Envia un SMS al fax"</string>
+    <!-- Action string for sending an SMS to a radio phone number -->
+    <string name="sms_radio">"Envia un SMS a la ràdio"</string>
+    <!-- Action string for sending an SMS to a Telex phone number -->
+    <string name="sms_telex">"Envia un SMS al tèlex"</string>
+    <!-- Action string for sending an SMS to a TTY/TDD phone number -->
+    <string name="sms_tty_tdd">"Envia un SMS al TTY/TDD"</string>
+    <!-- Action string for sending an SMS to a work mobile phone number -->
+    <string name="sms_work_mobile">"Envia un SMS al telèfon de la feina"</string>
+    <!-- Action string for sending an SMS to a work pager phone number -->
+    <string name="sms_work_pager">"Envia un SMS al cercapersones de la feina"</string>
+    <!-- Action string for sending an SMS to an assistant phone number -->
+    <string name="sms_assistant">"Envia un SMS a <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <!-- Action string for sending an SMS to a MMS phone number -->
+    <string name="sms_mms">"Envia un MMS"</string>
+
+    <!-- Action string for sending an email to a home email address -->
+    <string name="email_home">"Envia un correu electrònic a l'adreça particular"</string>
+    <!-- Action string for sending an email to a mobile email address -->
+    <string name="email_mobile">"Envia un correu electrònic al mòbil"</string>
+    <!-- Action string for sending an email to a work email address -->
+    <string name="email_work">"Envia un correu electrònic a la feina"</string>
+    <!-- Action string for sending an email to an other email address -->
+    <string name="email_other">"Envia un correu electrònic"</string>
+    <!-- Action string for sending an email to a custom email address -->
+    <string name="email_custom">"Envia un correu electrònic a <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+
+    <!-- Generic action string for sending an email -->
+
+    <!-- Action string for viewing a home postal address -->
+    <string name="map_home">"Visualitza l'adreça particular"</string>
+    <!-- Action string for viewing a work postal address -->
+    <string name="map_work">"Visualitza l'adreça de la feina"</string>
+    <!-- Action string for viewing an other postal address -->
+    <string name="map_other">"Visualitza l'adreça"</string>
+    <!-- Action string for viewing a custom postal address -->
+    <string name="map_custom">"Visualitza l'adreça <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+
+    <!-- Action string for starting an IM chat with the AIM protocol -->
+    <string name="chat_aim">"Xateja amb AIM"</string>
+    <!-- Action string for starting an IM chat with the MSN or Windows Live protocol -->
+    <string name="chat_msn">"Xateja amb Windows Live"</string>
+    <!-- Action string for starting an IM chat with the Yahoo protocol -->
+    <string name="chat_yahoo">"Xateja amb Yahoo"</string>
+    <!-- Action string for starting an IM chat with the Skype protocol -->
+    <string name="chat_skype">"Xateja amb Skype"</string>
+    <!-- Action string for starting an IM chat with the QQ protocol -->
+    <string name="chat_qq">"Xateja amb QQ"</string>
+    <!-- Action string for starting an IM chat with the Google Talk protocol -->
+    <string name="chat_gtalk">"Xateja amb Google Talk"</string>
+    <!-- Action string for starting an IM chat with the ICQ protocol -->
+    <string name="chat_icq">"Xateja amb ICQ"</string>
+    <!-- Action string for starting an IM chat with the Jabber protocol -->
+    <string name="chat_jabber">"Xateja amb Jabber"</string>
+
+    <!-- Generic action string for starting an IM chat -->
+    <string name="chat">"Fes un xat"</string>
+
+    <!-- Field title for the street of a structured postal address of a contact -->
+    <string name="postal_street">"Carrer"</string>
+    <!-- Field title for the PO box of a structured postal address of a contact -->
+    <string name="postal_pobox">"Apartat postal"</string>
+    <!-- Field title for the neighborhood of a structured postal address of a contact -->
+    <string name="postal_neighborhood">"Barri"</string>
+    <!-- Field title for the city of a structured postal address of a contact -->
+    <string name="postal_city">"Ciutat"</string>
+    <!-- Field title for the region, or state, of a structured postal address of a contact -->
+    <string name="postal_region">"Estat"</string>
+    <!-- Field title for the postal code of a structured postal address of a contact -->
+    <string name="postal_postcode">"Codi postal"</string>
+    <!-- Field title for the country of a structured postal address of a contact -->
+    <string name="postal_country">"País"</string>
+
+    <!-- Field title for the given name of a contact -->
+    <string name="name_given">"Nom"</string>
+    <!-- Field title for the family name of a contact -->
+    <string name="name_family">"Cognom"</string>
+    <!-- Field title for the prefix name of a contact -->
+    <string name="name_prefix">"Prefix del nom"</string>
+    <!-- Field title for the middle name of a contact -->
+    <string name="name_middle">"Segon nom"</string>
+    <!-- Field title for the suffix name of a contact -->
+    <string name="name_suffix">"Sufix del nom"</string>
+    <!-- Field title for the phonetic given name of a contact -->
+    <string name="name_phonetic_given">"Nom fonètic"</string>
+    <!-- Field title for the phonetic middle name of a contact -->
+    <string name="name_phonetic_middle">"Primer cognom fonètic"</string>
+    <!-- Field title for the phonetic family name of a contact -->
+    <string name="name_phonetic_family">"Cognoms fonètics"</string>
+
+    <!-- String describing which account type a contact came from when editing it -->
+    <string name="account_type_format">"Contacte de <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+
+    <!-- String describing which account a contact came from when editing it -->
+    <string name="from_account_format">"de <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+
+    <!-- Checkbox asking the user if they want to display a particular photo for a contact -->
+    <string name="use_photo_as_primary">"Utilitza aquesta foto"</string>
+
+    <!-- Text used to explain that a contact cannot be edited since the data is read only -->
+    <string name="contact_read_only">"La informació de contacte de <xliff:g id="SOURCE">%1$s</xliff:g> no es pot editar en aquest dispositiu."</string>
+
+    <!-- Text describing that a contact has no information available other than name and photo -->
+    <string name="no_contact_details">"No hi ha informació addicional per a aquest contacte"</string>
+
+    <!-- Label of the "sort list by" display option -->
+    <string name="display_options_sort_list_by">"Ordena la llista per"</string>
+
+    <!-- An allowable value for the "sort list by" contact display option  -->
+    <string name="display_options_sort_by_given_name">"Nom"</string>
+
+    <!-- An allowable value for the "sort list by" contact display option  -->
+    <string name="display_options_sort_by_family_name">"Cognom"</string>
+
+    <!-- Label of the "view names as" display option -->
+    <string name="display_options_view_names_as">"Visualitza els noms dels contactes com a"</string>
+
+    <!-- An allowable value for the "view names as" contact display option  -->
+    <string name="display_options_view_given_name_first">"Nom primer"</string>
+
+    <!-- An allowable value for the "view names as" contact display option  -->
+    <string name="display_options_view_family_name_first">"Cognoms primer"</string>
+
+    <!-- Gray hint displayed in the search field in Contacts when empty -->
+    <string name="search_bar_hint">"Cerca als contactes"</string>
+
+    <!-- Button displayed underneath the list of filtered visible contacts -->
+    <string name="search_for_all_contacts">"Cerca tots els contactes"</string>
+
+    <!-- An option in the 'change photo' or 'pick photo' dialog -->
+    <string name="take_photo">"Fes una foto"</string>
+
+    <!-- An option in the 'change photo' or 'pick photo' dialog -->
+    <string name="pick_photo">"Seleccioneu una foto de la Galeria"</string>
+
+    <!-- Text shown in the contacts app while the background process updates contacts after a locale change -->
+    <string name="locale_change_in_progress">"La llista de contactes s'està actualitzant per reflectir el canvi d'idioma."\n\n"Espereu-vos..."</string>
+
+    <!-- Text shown in the contacts app while the background process updates contacts after a system upgrade -->
+    <string name="upgrade_in_progress">"El contacte s'està actualitzant."nn"Espereu-vos..."</string>
+
+    <!-- Text shown in the contacts app if the background process updating contacts fails because of memory shortage -->
+    <string name="upgrade_out_of_memory">"S'estan actualitzant els contactes.
+    \n\nEl procés requereix aproximadament <xliff:g id="size_in_megabytes">%d</xliff:g>
+    Mb d'enmagatzematge intern.\n\nEscolliu una de les següents opcions:"</string>
+
+    <!-- Button shown in the contacts app if the background process updating contacts fails because of memory shortage -->
+    <string name="upgrade_out_of_memory_uninstall">"Desinstal·leu aplicacions"</string>
+
+    <!-- Button shown in the contacts app if the background process updating contacts fails because of memory shortage -->
+    <string name="upgrade_out_of_memory_retry">"Torneu a provar d'actualitzar"</string>
+
+    <!-- Title shown in the search result activity of contacts app -->
+    <string name="search_results_for">"Resultats de la cerca per a: <xliff:g id="QUERY">%s</xliff:g>"</string>
+
+    <!-- Title shown in the search result activity of contacts app while searching -->
+    <string name="search_results_searching">"S'està cercant..."</string>
+
+    <!-- Wysie: Menu strings -->
+    <string name="menu_preferences">"Preferències"</string>
+
+    <!-- Wysie: Dialer strings -->
+    <string name="dialer_menu_sms">"SMS/MMS"</string>
+
+    <!-- Wysie: Call log strings -->
+    <string name="recent_calls_clear_call_log">"Neteja registre de trucades"</string>
+    <string name="recent_calls_clear_what">"Què vols netejar?"</string>
+    <string name="recent_calls_clear_all">"Tot"</string>
+    <string name="recent_calls_clear_incoming">"Entrants"</string>
+    <string name="recent_calls_clear_outgoing">"Sortints"</string>
+    <string name="recent_calls_clear_missed">"Perdudes"</string>
+    <string name="alert_clear_call_log_title">"Neteja registre de trucades"</string>
+    <string name="alert_clear_call_log_message">"Segur que vols esborrar totes les trucades del registre?"</string>
+    <string name="alert_clear_cl_all_incoming">"Segur que vols esborrar la llista de trucades entrants?"</string>
+    <string name="alert_clear_cl_all_outgoing">"Segur que vols esborrar la llista de trucades sortints?"</string>
+    <string name="alert_clear_cl_all_missed">"Segur que vols esborrar la llista de trucades perdudes?"</string>
+
+    <!-- Wysie: Favourites strings -->
+    <string name="fav_clear_freq">"Neteja les trucades a números freqüents"</string>
+    <string name="alert_clear_freq_called_msg">"Segur que vols esborrar les trucades a números freqüents?"</string>
+
+    <!-- Wysie: Preferences strings -->
+
+    <!-- Preferences: Dialer -->
+    <string name="title_last_dialled">"El botó de trucada recupera el darrer número marcat"</string>
+    <string name="summary_last_dialled">"Es recuperarà el darrer número trucat si no s'ha introduït cap número"</string>
+    <string name="title_return_to_dialer">"Torna al marcador després de la trucada"</string>
+    <string name="title_vm_button">"Acció del botó esquerre (ABE)"</string>
+    <string name="title_vm_handler">"Manegador del contestador"</string>
+    <string name="title_use_1_for_reg_vm">"Utilitza 1 per al contestador normal"</string>
+    <string name="summaryon_use_1_for_reg_vm">"La tecla 1 es farà servir per al contestador normal"</string>
+    <string name="summaryoff_use_1_for_reg_vm">"La tecla 1 cridarà el manegador de contestador"</string>
+    <string name="title_disable_num_check">"Desactiva les comprovacions de número"</string>
+    <string name="summaryon_disable_num_check">"Acció del botó esquerre (ABE) i menú sempre habilitats"</string>
+    <string name="summaryoff_disable_num_check">"ABE i menú estaran habilitats si s'ha introduït almenys un número (excepte pel contestador)"</string>
+    <string name="title_enable_haptic_feedback">"Activa retroacció tàctil"</string>
+    <string name="summary_enable_haptic_feedback">"Utilitza els paràmetres de toc del teclat - veure paràmetres de CyanogenMod per a modificar"</string>
+    <string name="title_change_digits_color">"Canvia el color del dígits"</string>
+    <string name="title_digits_color_pressed">"Color del dígit (premut)"</string>
+    <string name="title_digits_color_focused">"Color del dígit (seleccionat)"</string>
+    <string name="title_digits_color_unselected">"Color del dígit (no seleccionat)"</string>
+    <string name="title_choose_color">"Tria un color"</string>
+    <string name="instructions_choose_color">"Toca el centre del color per a confirmar.nPrem Enrere per cancel·lar"</string>
+    <string name="entry_no_vm_handler">"Cap (truca al número del contestador)"</string>
+
+    <!-- Preferences: Call log -->
+    <string name="title_cl_exact_time">"Temps exactes"</string>
+    <string name="summaryon_cl_exact_time">"Fa servir temps exactes en els registres de trucada"</string>
+    <string name="summaryoff_cl_exact_time">"Fa servir temps relatius en els registres de trucada"</string>
+    <string name="title_cl_show_seconds">"Mostra els segons"</string>
+    <string name="summary_cl_show_seconds">"Mostra els segons quan es facin servir temps exactes"</string>
+    <string name="title_cl_ask_before_clear">"Pregunta en netejar"</string>
+    <string name="summaryon_cl_ask_before_clear">"Demana confirmació abans de netejar el registre de trucades"</string>
+    <string name="summaryoff_cl_ask_before_clear">"El registre de trucades s'esborrarà sense demanar confirmació"</string>
+
+    <!-- Preferences: Contacts -->
+    <string name="title_contacts_show_pic">"Mostra la foto dels contactes"</string>
+    <string name="title_contacts_show_dial_button">"Mostra el botó de marcar"</string>
+    <string name="summary_contacts_show_dial_button">"Mostra el botó de marcar als contactes que tinguin número"</string>
+    <string name="title_contacts_show_count">"Mostra el total de contactes"</string>
+    <string name="summary_contacts_show_count">"Mostra el nombre total a la part superior de la llista de contactes"</string>
+    <string name="title_contacts_show_separators">"Mostra separadors alfabètics"</string>
+    <string name="summaryon_contacts_show_separators">"Mostra els separadors alfabètics a la llista de contactes"</string>
+    <string name="summaryoff_contacts_show_separators">"Amaga els separadors alfabètics a la llista de contactes"</string>
+
+    <!-- Preferences: Contacts - View Contact -->
+    <string name="title_view_contact">"Mostra contacte"</string>
+    <string name="summary_view_contact">"Estableix preferències en mostrar un contacte individual"</string>
+    <string name="title_show_text_mobile_only">"Envia text només a mòbils"</string>
+    <string name="summaryon_show_text_mobile_only">"Només es mostraran les opcions de text/sms als telèfons mòbils"</string>
+    <string name="summaryoff_show_text_mobile_only">"Es mostraran les accions de text/sms a tots els telèfons"</string>
+
+    <!-- Preferences: Favourites -->
+    <string name="title_favourites_hide_freq_call">"Amaga números freqüents"</string>
+    <string name="summary_favourites_hide_freq_call">"Les dades no s'esborren, només s'amaguen"</string>
+    <string name="title_favs_ask_before_clear">"Confirmació abans de netejar"</string>
+    <string name="summaryon_favs_ask_before_clear">"Demana confirmació abans de netejar els números freqüents"</string>
+    <string name="summaryoff_favs_ask_before_clear">"No es demana confirmació abans de netejar els números freqüents"</string>
+
+    <!-- Preferences: Misc -->
+    <string name="title_misc_category">"Miscel·lània"</string>
+    <string name="title_sensor_rotation">"Activa el sensor de rotació"</string>
+    <string name="summary_sensor_rotation">"Si està actiu, rotarà segons els paràmetres del sistema"</string>
+    <string name="title_data_font_size">"Mida de font dels contactes"</string>
+    <string name="summary_data_font_size">"Permet escollir la mida de la font que s'utilitza per mostrar la informació dels contactes (telèfon, correu, adreça, etc.)"</string>
+    <string name="title_default_phone_tab">"Pestanya per defecte"</string>
+    <string name="summary_default_phone_tab">"Pestanya que es mostra per defecte en obrir l'aplicació Phone"</string>
+
+    <!-- Default Phone Tab strings -->
+    <string name="default_phone_tab_last_used">"Últim número marcat (per defecte)"</string>
+    <string name="default_phone_tab_last_viewed">"Darrer visualitzat"</string>
+    <string name="default_phone_tab_phone">"Telèfon"</string>
+    <string name="default_phone_tab_call_log">"Registre"</string>
+    <string name="default_phone_tab_contacts">"Contactes"</string>
+    <string name="default_phone_tab_favorites">"Preferits"</string>
+
+    <!-- Wysie: About strings -->
+    <string name="title_about">"Quant a"</string>
+    <string name="title_about_name">"Nom del Mod"</string>
+    <string name="summary_about_name">"WyContacts Froyo"</string>
+    <string name="title_about_version">"Versió"</string>
+    <string name="summary_about_version">"1.2"</string>
+    <string name="title_about_credits">"Crèdits"</string>
+    <string name="summary_about_credits">"Wysie, ChainsDD, geesun, niuchl, rac2030, sileht i la resta de gent de XDA! :)"</string>
+
+    <string name="date_year_toggle">"Indica un any"</string>
+    <string name="date_format_short_no_year">dd/MM</string>
+    <string name="date_format_full_no_year">d MMMM</string>
+</resources>

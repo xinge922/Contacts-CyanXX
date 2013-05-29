@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Label for this app's shared user ID (and thus for all other
+         apps sharing the uid). -->
+    <string name="sharedUserLabel">"Aplikacje główne systemu Android"</string>
+
+    <!-- Title for the activity that shows contacts.  This is the name
+         used in the Launcher icon. -->
+    <string name="contactsList">"Kontakty"</string>
+
+    <!-- Title for the activity that dials the phone.  This is the name
+         used in the Launcher icon. -->
+    <string name="launcherDialer">"Telefon"</string>
+
+    <!-- Name of activity that allows users to create shortcuts on the home screen to a contact.
+         This shows up in a list of things like bookmark, folder, music playlist, etc -->
+    <string name="shortcutContact">"Kontakt"</string>
+
+    <!-- Name of activity that allows users to create shortcuts on the home screen to dial a contact.
+         This shows up in a list of things like bookmark, folder, music playlist, etc -->
+    <string name="shortcutDialContact">"Telefon do osoby"</string>
+
+    <!-- Name of activity that allows users to create shortcuts on the home screen to message (SMS) a contact.
+         This shows up in a list of things like bookmark, folder, music playlist, etc -->
+    <string name="shortcutMessageContact">"SMS do osoby"</string>
+
+    <!-- Activity title when the user is selecting a contact for a shortcut. -->
+    <string name="shortcutActivityTitle">"Wybierz skrót kontaktu"</string>
+
+    <!-- Activity title when the user is selecting a contact for a direct dial shortcut. -->
+    <string name="callShortcutActivityTitle">"Wybierz numer, aby nawiązać połączenie"</string>
+
+    <!-- Activity title when the user is selecting a contact for a direct message shortcut. -->
+    <string name="messageShortcutActivityTitle">"Wybierz numer, aby wysłać wiadomość"</string>
+
+    <!-- Title for the activity that shows only starred contacts -->
+    <string name="starredList">"Oznaczony gwiazdką"</string>
+
+    <!-- Title for the activity that shows only frequently contacted contacts -->
+    <string name="frequentList">"Częste"</string>
+
+    <!-- Title for the activity that shows a mix of starred contacts and frequently contacted
+         contacts. -->
+    <string name="strequentList">"Ulubione"</string>
+
+    <!-- The title bar when viewing the contact details activity -->
+    <string name="viewContactTitle">"Szczegóły kontaktu"</string>
+
+    <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
+         viewing a contact. This string represents the built in way to view the contact. -->
+    <string name="viewContactDesription">"Wyświetl kontakt"</string>
+
+    <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
+         editing a contact. This string represents the built in way to edit the contact. -->
+    <string name="editContactDescription">"Edytuj kontakt"</string>
+
+    <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
+         creating a new contact. This string represents the built in way to create the contact. -->
+    <string name="insertContactDescription">"Utwórz kontakt"</string>
+
+    <!-- Hint text in the search box when the user hits the Search key while in the contacts app -->
+    <string name="searchHint">"Przeszukuj kontakty"</string>
+
+    <!-- Menu item to search contacts -->
+    <string name="menu_search">"Szukaj"</string>
+
+    <!-- Menu item to create a new contact -->
+    <string name="menu_newContact">"Nowy kontakt"</string>
+
+    <!-- Menu item used to view the details for a specific contact -->
+    <string name="menu_viewContact">"Wyświetl kontakt"</string>
+
+    <!-- Menu item used to call a contact, containing the name of the contact to call -->
+    <string name="menu_callNumber">"Zadzwoń do: %s"</string>
+
+    <!-- Menu item used to add a star to a contact, which makes that contact show up at the top of favorites -->
+    <string name="menu_addStar">"Dodaj do ulubionych"</string>
+
+    <!-- Menu item used to remove a star from a contact, making the contact no longer show up at the top of favorites -->
+    <string name="menu_removeStar">"Usuń z ulubionych"</string>
+
+    <!-- Menu item used to edit a specific contact -->
+    <string name="menu_editContact">"Edytuj kontakt"</string>
+
+    <!-- Menu item used to delete a specific contact -->
+    <string name="menu_deleteContact">"Usuń kontakt"</string>
+
+    <!-- Menu item used to call a specific contact when viewing the details of that contact. -->
+    <string name="menu_call">"Zadzwoń do kontaktu"</string>
+
+    <!-- Menu item used to send an SMS or MMS message to a specific phone number or a contacts default phone number -->
+    <string name="menu_sendSMS">"Wyślij tekst do kontaktu"</string>
+
+    <!-- Menu item used to send an email message to a specific email address -->
+    <string name="menu_sendEmail">"Wyślij e-mail"</string>
+
+    <!-- Menu item used to view a contact's address on a map -->
+    <string name="menu_viewAddress">"Pokaż adres na mapie"</string>
+
+    <!-- Menu item that makes a phone the default for a contact. The default number used when you
+         try to call a contact without specifying a specific number. -->
+    <string name="menu_makeDefaultNumber">"Ustaw ten numer jako domyślny"</string>
+
+    <!-- Menu item that makes an email address the default for a contact. The default email used
+         when you try to email a contact without specifying a specific address. -->
+    <string name="menu_makeDefaultEmail">"Ustaw jako domyślny adres e-mail"</string>
+
+    <!-- Menu item used to share the plain-text representation of a specific phone number -->
+    <string name="menu_shareNumber">Udostępnij numer</string>
+
+    <!-- Menu item used to share the plain-text representation of a specific email address -->
+    <string name="menu_shareEmail">Udostępnij e-mail</string>
+
+    <!-- Menu item used to share the plain-text representation of a specific address -->
+    <string name="menu_shareAddress">Udostępnij adres</string>
+
+    <!-- Menu item that splits an item from the contact detail into a separate aggregate -->
+    <string name="menu_splitAggregate">"Podziel"</string>
+
+    <!-- Toast shown after a contact has been split from an aggregate by a user action -->
+    <string name="contactsSplitMessage">"Kontakty zostały podzielone"</string>
+
+    <!-- Title of the confirmation dialog for separating contacts into multiple instances  -->
+    <string name="splitConfirmation_title">"Podziel kontakt"</string>
+
+    <!-- Confirmation dialog for separating contacts into multiple instances  -->
+    <string name="splitConfirmation">"Czy na pewno chcesz podzielić ten pojedynczy kontakt na kilka kontaktów: po jednym dla każdego zawartego w nim zestawu informacji kontaktowych?"</string>
+
+    <!-- Menu item that joins an aggregate with another aggregate -->
+    <string name="menu_joinAggregate">"Połącz"</string>
+
+    <!-- Heading of the Join Contact screen -->
+    <string name="titleJoinContactDataWith">"Połącz kontakty"</string>
+
+    <!-- Info blurb on the Join Contact screen -->
+    <string name="blurbJoinContactDataWith">"Wybierz kontakt, który chcesz połączyć z %s."</string>
+
+    <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
+    <string name="showAllContactsJoinItem">"Pokaż wszystkie kontakty"</string>
+
+    <!-- List separator for the Join Contact list: Suggestions -->
+    <string name="separatorJoinAggregateSuggestions">"Sugerowane kontakty"</string>
+
+    <!-- List separator for the Join Contact list: A-Z -->
+    <string name="separatorJoinAggregateAll">"Wszystkie kontakty"</string>
+
+    <!-- Toast shown after two contacts have been joined by a user action -->
+    <string name="contactsJoinedMessage">"Kontakty zostały połączone"</string>
+
+    <!-- Menu item that opens the Options activity for a given contact -->
+    <string name="menu_contactOptions">"Opcje"</string>
+
+    <!-- Title for the Options activity for a given contact -->
+    <string name="contactOptionsTitle">"Opcje"</string>
+
+    <!-- Confirmation dialog title after users selects to delete a contact. -->
+    <string name="deleteConfirmation_title">"Usuń"</string>
+
+    <!-- Confirmation dialog title after users selects clear log. -->
+    <string name="clearConfirmation_title">Wyczyść rejestr połączeń</string>
+
+    <!-- Warning dialog contents after users selects to delete a ReadOnly contact. -->
+    <string name="readOnlyContactWarning">"Nie możesz usunąć kontaktów z kont tylko do odczytu, ale możesz ukryć je na swoich listach kontaktów."</string>
+
+    <!-- Warning dialog contents after users selects to delete a contact with ReadOnly and Writable sources. -->
+    <string name="readOnlyContactDeleteConfirmation">"Ten kontakt zawiera informacje pochodzące z wielu kont. Informacje z kont przeznaczonych tylko do odczytu zostaną na listach kontaktów ukryte, a nie usunięte."</string>
+
+    <!-- Warning dialog contents after users selects to delete a contact with multiple Writable sources. -->
+    <string name="multipleContactDeleteConfirmation">"Usunięcie tego kontaktu spowoduje usunięcie informacji z wielu kont."</string>
+
+    <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
+    <string name="deleteConfirmation">"Ten kontakt zostanie usunięty."</string>
+
+    <!-- Confirmation dialog contents after users selects to clear call log. -->
+    <string name="clearLogConfirmation">Wszystkie połączenia zostaną usunięte.</string>
+
+    <!-- Menu item to indicate you are done editing a contact and want to save the changes you've made -->
+    <string name="menu_done">"Gotowe"</string>
+
+    <!-- Menu item to indicate you want to stop editing a contact and NOT save the changes you've made -->
+    <string name="menu_doNotSave">"Przywróć"</string>
+
+    <!-- The title of the activity that edits and existing contact -->
+    <string name="editContact_title_edit">"Edytuj kontakt"</string>
+
+    <!-- The title of the activity that creates a new contact -->
+    <string name="editContact_title_insert">"Nowy kontakt"</string>
+
+    <!-- The label describing the phonetic pronunciation/reading of a contact name -->
+    <string name="label_phonetic_name">"Fonetycznie"</string>
+
+    <!-- The label describing the Notes field of a contact. This field allows free form text entry about a contact -->
+    <string name="label_notes">"Notatki"</string>
+
+    <!-- The label describing the SIP address field of a contact. [CHAR LIMIT=20] -->
+    <string name="label_sip_address">"Rozmowa internetowa"</string>
+
+    <!-- The label describing the custom ringtone for a contact -->
+    <string name="label_ringtone">"Dzwonek"</string>
+
+    <!-- Hint text for the contact name when editing -->
+    <string name="ghostData_name">"Imię i nazwisko"</string>
+
+    <!-- Hint text for the phonetic reading of the contact name when editing -->
+    <string name="ghostData_phonetic_name">"Nazwisko (fonetycznie)"</string>
+
+    <!-- Hint text for the organization name when editing -->
+    <string name="ghostData_company">"Firma"</string>
+
+    <!-- Hint text for the organization title when editing -->
+    <string name="ghostData_title">"Stanowisko"</string>
+
+    <!-- Message displayed in a toast when you try to view the details of a contact that
+         for some reason doesn't exist anymore. -->
+    <string name="invalidContactMessage">"Kontakt nie istnieje."</string>
+
+    <!-- When picking a contact from a list of all contacts there is an entry at the top of the
+         list that allows the user to create a new contact, which this string is used for -->
+    <string name="pickerNewContactHeader">"Utwórz nowy kontakt"</string>
+
+    <!-- Dialog title when you select a label when creating or edit a contact -->
+    <string name="selectLabel">"Wybierz etykietę"</string>
+
+    <!-- Header that expands to list all of the types of phone numbers when editing or creating a phone number for a contact -->
+    <string name="phoneLabelsGroup">"Telefon"</string>
+
+    <!-- Header that expands to list all of the types of email addresses when editing or creating an email address for a contact -->
+    <string name="emailLabelsGroup">"E-mail"</string>
+
+    <!-- Header that expands to list all of the types of IM account when editing or creating an IM account for a contact -->
+    <string name="imLabelsGroup">"Komunikatory"</string>
+
+    <!-- Header that expands to list all of the types of postal addresses when editing or creating an postal address for a contact -->
+    <string name="postalLabelsGroup">"Adres pocztowy"</string>
+
+    <!-- The order of the items below is important, don't reorder without changing EditContactActivity.java -->
+    <skip/>
+    <!-- The labels that are under the otherLabelsGroup when editing a contact. -->
+    <string-array name="otherLabels">
+        <!-- An organization associated with a contact -->
+        <item>Organization</item>
+        <!-- A note associated with a contact -->
+        <item>Note</item>
+    </string-array>
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText">"W telefonie brak dostępnych zdjęć."</string>
+
+    <!-- Description of the activity used to set a photo in the pictures application as the icon for a contact -->
+    <string name="attachToContact">"Ikona kontaktu"</string>
+
+    <!-- Title of the dialog used to set a custom label for a contact detail, like a phone number or email address.
+         For example, this may be used to set a phone number's label to "Vaction house" -->
+    <string name="customLabelPickerTitle">"Nazwa etykiety niestandardowej"</string>
+
+    <!-- The menu item to open the list of groups to display -->
+    <string name="menu_displayGroup">"Opcje wyświetlania"</string>
+
+    <!-- Title of activity that lets user pick which contact groups to display -->
+    <string name="displayGroups">"Opcje wyświetlania"</string>
+
+    <!-- Check box label that allows calls to the contact to be sent directly to voicemail -->
+    <string name="send_to_voicemail_checkbox">"Przekieruj połączenia bezpośrednio na pocztę głosową"</string>
+
+    <!-- String used to indicate that a contact doesn't have a custom ringtone -->
+    <string name="default_ringtone">"Domyślny"</string>
+
+    <!-- The button/menu item that allows you to change an existing contact picture -->
+    <string name="changePicture">"Zmień ikonę"</string>
+
+    <!-- The menu item that allows you to remove a picture from a contact -->
+    <string name="removePicture">"Usuń ikonę"</string>
+
+    <!-- The text displayed when the contacts list is empty while displaying all contacts -->
+    <string name="noContacts">"Brak kontaktów"</string>
+
+    <!-- The text displayed when the contacts list is empty while displaying results after searching contacts -->
+    <string name="noMatchingContacts">"Nie znaleziono pasujących kontaktów."</string>
+
+    <!-- The text displayed when the contacts list is empty while displaying only contacts that have phone numbers -->
+    <string name="noContactsWithPhoneNumbers">"Brak kontaktów z numerami telefonów"</string>
+
+    <!-- The title of the filter to only show contacts with phone numbers -->
+    <string name="showFilterPhones">"Tylko kontakty z telefonami"</string>
+
+    <!-- The description of the filter to only show contacts with phone numbers -->
+    <string name="showFilterPhonesDescrip">"Wyświetlaj tylko kontakty zawierające numery telefonów"</string>
+
+    <!-- The header over the list of all contacts groups -->
+    <string name="headerContactGroups">"Wybierz kontakty do wyświetlenia"</string>
+
+    <!-- The description of a group with the total number of contacts -->
+    <plurals name="groupDescrip">
+        <item quantity="other"><xliff:g id="count">%0$d</xliff:g> contacts</item>
+    </plurals>
+
+    <!-- The description of a group with the total number of contacts, and the total number of contacts with phone numbers -->
+    <plurals name="groupDescripPhones">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> contacts, <xliff:g id="countWithPhones">%2$d</xliff:g> with phones</item>
+    </plurals>
+
+    <!-- Displayed in a spinner dialog after the user creates a contact and it's being saved to the database -->
+    <string name="savingContact">"Trwa zapisywanie kontaktu..."</string>
+
+    <!-- Displayed in a spinner dialog as user changes to display options are saved -->
+    <string name="savingDisplayGroups">"Trwa zapisywanie opcji wyświetlania..."</string>
+
+    <!-- Toast displayed when a contact is saved -->
+    <string name="contactSavedToast">"Kontakt został zapisany."</string>
+
+    <!-- Toast displayed when saving a contact failed -->
+    <string name="contactSavedErrorToast">"Błąd. Nie można zapisać zmian wprowadzonych w kontakcie."</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" is selected -->
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="one">Displaying 1 contact with phone number</item>
+        <item quantity="other">Displaying <xliff:g id="count">%d</xliff:g> contacts with phone numbers</item>
+    </plurals>
+
+    <!-- Displayed at the top of the contacts showing the zero as total number of contacts visible when "Only contacts with phones" is selected -->
+    <string name="listTotalPhoneContactsZero">"Brak widocznych kontaktów z numerami telefonów"</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" not selected -->
+    <plurals name="listTotalAllContacts">
+        <item quantity="one">Displaying 1 contact</item>
+        <item quantity="other">Displaying <xliff:g id="count">%d</xliff:g> contacts</item>
+    </plurals>
+
+    <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "Only contacts with phones" not selected -->
+    <string name="listTotalAllContactsZero">"Brak widocznych kontaktów"</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts found when "Only contacts with phones" not selected -->
+    <plurals name="listFoundAllContacts">
+        <item quantity="one">Found 1 contact</item>
+        <item quantity="other">Found <xliff:g id="count">%d</xliff:g> contacts</item>
+    </plurals>
+
+    <!-- Displayed at the top of the contacts showing the zero total number of contacts found when "Only contacts with phones" not selected -->
+    <string name="listFoundAllContactsZero">"Nie znaleziono kontaktu"</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts found when typing search query -->
+    <plurals name="searchFoundContacts">
+        <item quantity="one">1 contact</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> contacts</item>
+    </plurals>
+
+    <!-- The description text for the contacts tab. Space is limited for this string, so the shorter the better -->
+    <string name="contactsIconLabel">"Kontakty"</string>
+
+    <!-- The description text for the favorites tab. Space is limited for this string, so the shorter the better -->
+    <string name="contactsFavoritesLabel">"Ulubione"</string>
+
+    <!-- The description text for the dialer tab. Space is limited for this string, so the shorter the better -->
+    <string name="dialerIconLabel">"Telefon"</string>
+
+    <!-- The description text for the call log tab. Space is limited for this string, so the shorter the better -->
+    <string name="recentCallsIconLabel">"Rejestr"</string>
+    <string name="liveFolderAll">"Wszystkie kontakty"</string>
+    <string name="liveFolderFavorites">"Kontakty z gwiazdką"</string>
+    <string name="liveFolderPhone">"Kontakty z numerami telefonów"</string>
+
+    <!-- Menu item used to send an SMS or MMS message to a phone number  -->
+    <string name="menu_sendTextMessage">"Wyślij wiadomość tekstową"</string>
+
+    <!-- Menu item used to call a contact from the call log -->
+    <string name="recentCalls_callNumber">"Zadzwoń do: %s"</string>
+
+    <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
+    <string name="recentCalls_editNumberBeforeCall">"Edytuj numer przed nawiązaniem połączenia"</string>
+
+    <!--Menu item used to add a number from the call log to Blacklist  -->
+    <string name="recentCalls_addToBlacklist">Dodaj do czarnej listy</string>
+    
+    <!-- Menu item used to add a number from the call log to contacts -->
+    <string name="recentCalls_addToContact">"Dodaj do kontaktów"</string>
+
+    <!-- Menu item used to remove a single call from the call log -->
+    <string name="recentCalls_removeFromRecentList">"Usuń z rejestru połączeń"</string>
+
+    <!-- Menu item used to remove all calls from the call log -->
+    <string name="recentCalls_deleteAll">"Wyczyść rejestr połączeń"</string>
+
+    <!-- Text displayed when the call log is empty -->
+    <string name="recentCalls_empty">"Rejestr połączeń jest pusty."</string>
+
+    <!-- Title of the confirmation dialog for clearing the call log  -->
+    <string name="clearCallLogConfirmation_title">"Wyczyść rejestr połączeń"</string>
+
+    <!-- Confirmation dialog for clearing the call log  -->
+    <string name="clearCallLogConfirmation">"Czy na pewno chcesz wyczyścić rejestr połączeń?"</string>
+
+    <!-- The title of a dialog that displays the IMEI of the phone -->
+    <string name="imei">"IMEI"</string>
+
+    <!-- The title of a dialog that displays the MEID of the CDMA phone -->
+    <string name="meid">"Numer MEID"</string>
+
+    <!-- String used for displaying calls to the voicemail number in the call log -->
+    <string name="voicemail">"Poczta głosowa"</string>
+
+    <!-- String used to display calls from unknown numbers in the call log -->
+    <string name="unknown">"Nieznane"</string>
+
+    <!-- String used to display calls from private numbers in the call log -->
+    <string name="private_num">"Numer prywatny"</string>
+
+    <!-- String used to display calls from pay phone in the call log -->
+    <string name="payphone">"Telefon płatny"</string>
+
+    <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
+         to dial using the physical keyboard -->
+    <string name="dialerKeyboardHintText">"Wybierz numer za pomocą klawiatury"</string>
+
+    <!-- Hint text displayed in the "digits" field above the dialer's
+         dialpad, if there's already a call in progress.  (This hint
+         reminds the user that the dialer will add a new call, as opposed
+         to sending DTMF tones over the current call.) -->
+    <string name="dialerDialpadHintText">"Dodaj nowe poł."</string>
+
+    <!-- Dialog text displayed when loading a phone number from the SIM card for speed dial -->
+    <string name="simContacts_emptyLoading">"Wczytywanie z karty SIM…"</string>
+
+    <!-- Dialog title displayed when loading a phone number from the SIM card for speed dial -->
+    <string name="simContacts_title">"Kontakty z karty SIM"</string>
+
+    <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts, and contact syncing is enabled -->
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">"Nie masz żadnych kontaktów do wyświetlenia (jeśli konto zostało dopiero dodane, synchronizacja kontaktów może potrwać kilka minut)."</string>
+
+    <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts -->
+    <string name="noContactsHelpTextForCreateShortcut">"Nie masz żadnych kontaktów do wyświetlenia."</string>
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled -->
+    <string name="noContactsHelpText">"Nie masz żadnych kontaktów do wyświetlenia."\n\n"Aby dodać kontakty, naciśnij przycisk ""Menu"" i dotknij opcji:"\n" "\n"Konta"", aby dodać lub skonfigurować konto zawierające kontakty, które można synchronizować z telefonem."\n" "\n"Nowy kontakt"", aby utworzyć nowy kontakt od początku."\n" "\n"Importuj/eksportuj"\n</string>
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled -->
+    <string name="noContactsHelpTextWithSync">"Nie masz żadnych kontaktów do wyświetlenia. (Jeśli przed chwilą dodano konto, synchronizacja kontaktów może potrwać kilka minut)."\n\n"Aby dodać kontakty, naciśnij przycisk ""Menu"" i dotknij opcji:"\n" "\n"Konta"", aby dodać lub skonfigurować konto zawierające kontakty, które można synchronizować z telefonem."\n" "\n"Opcje wyświetlania"", aby zmienić widoczne typy kontaktów."\n" "\n"Nowy kontakt"", aby utworzyć nowy kontakt od początku."\n" "\n"Importuj/eksportuj"\n</string>
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma)-->
+    <string name="noContactsNoSimHelpText">"Nie masz żadnych kontaktów do wyświetlenia."\n\n"Aby dodać kontakty, naciśnij przycisk ""Menu"" i dotknij opcji:"\n" "\n"Konta"", aby dodać lub skonfigurować konto zawierające kontakty, które można synchronizować z telefonem."\n" "\n"Nowy kontakt"", aby utworzyć nowy kontakt od początku."\n" "\n"Importuj/eksportuj"\n</string>
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma) -->
+    <string name="noContactsNoSimHelpTextWithSync">"Nie masz żadnych kontaktów do wyświetlenia. (Jeśli przed chwilą dodano konto, synchronizacja kontaktów może potrwać kilka minut)."\n\n"Aby dodać kontakty, naciśnij przycisk ""Menu"" i dotknij opcji:"\n" "\n"Konta"", aby dodać lub skonfigurować konto zawierające kontakty, które można synchronizować z telefonem."\n" "\n"Opcje wyświetlania"", aby zmienić widoczne typy kontaktów."\n" "\n"Nowy kontakt"", aby utworzyć nowy kontakt od początku."\n" "\n"Importuj/eksportuj"\n</string>
+
+    <!-- Displayed full screen when the user has no favorites and they are displaying the favorites tab -->
+    <string name="noFavoritesHelpText">"Nie masz żadnych ulubionych kontaktów."\n\n"Aby dodać kontakt do listy ulubionych:"\n\n"        ""Dotknij karty ""Kontakty""."\n" "\n"Dotknij kontaktu, który chcesz dodać do ulubionych."\n" "\n"Dotknij ikony gwiazdki obok nazwy kontaktu."\n</string>
+
+    <!-- Activity title for the activity that lets the user choose which groups of contacts to sync from the server -->
+
+
+    <!-- Live folder label for all contacts -->
+    <string name="liveFolder_all_label">"Wszystkie kontakty"</string>
+
+    <!-- Live folder label for only starred contacts -->
+    <string name="liveFolder_favorites_label">"Oznaczone gwiazdką"</string>
+
+    <!-- Live folder label for all contacts with phone numbers -->
+    <string name="liveFolder_phones_label">"Telefony"</string>
+
+    <!-- Item label: jump to the in-call DTMF dialpad.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_useDtmfDialpad">"Użyj klawiatury tonowej"</string>
+
+    <!-- Item label: jump to the in-call UI.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_returnToInCallScreen">"Powrót do aktywnego połączenia"</string>
+
+    <!-- Item label: use the Dialer's dialpad to add another call.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_addAnotherCall">"Dodaj połączenie"</string>
+
+    <!-- Title bar for call detail screen -->
+    <string name="callDetailTitle">"Szczegóły połączenia"</string>
+
+    <!-- Toast for call detail screen when couldn't read the requested details -->
+    <string name="toast_call_detail_error">"Nie można odczytać szczegółów żądanego połączenia."</string>
+
+    <!-- Title for incoming call details screen -->
+    <string name="type_incoming">"Połączenie"</string>
+
+    <!-- Title for outgoing call details screen -->
+    <string name="type_outgoing">"Połączenie wychodzące"</string>
+
+    <!-- Title for missed call details screen -->
+    <string name="type_missed">"Nieodebrane połączenia"</string>
+
+    <!-- Description for incoming calls going to voice mail vs. not -->
+    <string name="actionIncomingCall">"Połączenia przychodzące"</string>
+
+    <!-- Action string for calling back a number in the call log -->
+    <string name="callBack">"Oddzwoń"</string>
+
+    <!-- Action string for calling a number in the call log again -->
+    <string name="callAgain">"Zadzwoń ponownie"</string>
+
+    <!-- Action string for returning a missed call in the call log -->
+    <string name="returnCall">"Połączenie zwrotne"</string>
+
+    <!-- A nicely formatted call duration displayed when viewing call details. For example "42 mins 28 secs" -->
+    <string name="callDetailsDurationFormat">"%1$s min %2$s s"</string>
+
+    <!-- A list separator for the Favorites tab indicating that items below it are frequently contacted contacts rather than starred contacts -->
+    <string name="favoritesFrquentSeparator">"Częste kontakty"</string>
+
+    <!-- Dialog title when prompting before creating a contact -->
+    <string name="add_contact_dlg_title">"Dodaj kontakt"</string>
+    <!-- Dialog message when prompting before creating a contact. Includes
+         the email address, e.g. "Add xyz@foo.com to contacts?" -->
+    <string name="add_contact_dlg_message_fmt">"Czy dodać adres „%s” do kontaktów?"</string>
+
+    <!-- Label for the all data tab in the view and edit card -->
+    <string name="all_tab_label">"Wszystkie"</string>
+
+    <!-- String describing the image on ImageButton one
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_one">"jeden"</string>
+
+    <!-- String describing the image on ImageButton two
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_two">"dwa"</string>
+
+    <!-- String describing the image on ImageButton three
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_three">"trzy"</string>
+
+    <!-- String describing the image on ImageButton four
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_four">"cztery"</string>
+
+    <!-- String describing the image on ImageButton five
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_five">"pięć"</string>
+
+    <!-- String describing the image on ImageButton six
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_six">"sześć"</string>
+
+    <!-- String describing the image on ImageButton seven
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_seven">"siedem"</string>
+
+    <!-- String describing the image on ImageButton eight
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_eight">"osiem"</string>
+
+    <!-- String describing the image on ImageButton nine
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_nine">"dziewięć"</string>
+
+    <!-- String describing the image on ImageButton star
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_star">"gwiazdka"</string>
+
+    <!-- String describing the image on ImageButton zero
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_zero">"zero"</string>
+
+    <!-- String describing the image on ImageButton pound
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_pound">"funt"</string>
+
+    <!-- String describing the Voicemail ImageButton
+
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_voicemail_button">"poczta głosowa"</string>
+
+    <!-- String describing the Dial ImageButton
+
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_dial_button">"wybierz numer"</string>
+
+    <!-- String describing the Delete/Backspace ImageButton
+
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_delete_button">"backspace"</string>
+
+    <!-- String describing the digits text box containing the number to dial.
+
+         Used by AccessibilityService to announce the purpose of the view.
+    -->
+    <string name="description_digits_edittext">"numer do wybrania"</string>
+
+    <!-- String describing the Contact Photo Image
+
+         Used by AccessibilityService to announce the purpose of the view.
+    -->
+    <string name="description_contact_photo">"zdjęcie kontaktu"</string>
+
+    <!-- String describing the Contact Editor Minus button
+
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_minus_button">"minus"</string>
+
+    <!-- String describing the Contact Editor Plus button
+
+         Used by AccessibilityService to announce the purpose of the button.
+    -->
+    <string name="description_plus_button">"plus"</string>
+
+    <!-- Dialog title shown when USB storage does not exist [CHAR LIMIT=25] -->
+    <string name="no_sdcard_title" product="nosdcard">"Brak karty SD"</string>
+    <!-- Dialog title shown when SD Card does not exist -->
+    <string name="no_sdcard_title" product="default">No SD card</string>
+
+    <!-- Dialog message shown when USB storage does not exist [CHAR LIMIT=30] -->
+    <string name="no_sdcard_message" product="nosdcard">"Nie wykryto karty SD"</string>
+    <!-- Dialog message shown when SDcard does not exist -->
+    <string name="no_sdcard_message" product="default">No SD card detected</string>
+
+    <!-- Dialog title shown when searching VCard data from SD Card -->
+    <string name="searching_vcard_title">"Wyszukiwanie danych vCard"</string>
+
+    <!-- Action string for selecting SIM for importing contacts -->
+    <string name="import_from_sim">"Importuj z karty SIM"</string>
+
+    <!-- Action string for selecting USB storage for importing contacts [CHAR LIMIT=25] -->
+    <string name="import_from_sdcard" product="nosdcard">"Importuj z karty SD"</string>
+    <!-- Action string for selecting SD Card for importing contacts -->
+    <string name="import_from_sdcard" product="default">Import from SD card</string>
+
+    <!-- Action that exports all contacts to USB storage [CHAR LIMIT=25] -->
+    <string name="export_to_sdcard" product="nosdcard">"Eksportuj na kartę SD"</string>
+    <!-- Action that exports all contacts to SD Card -->
+    <string name="export_to_sdcard" product="default">Export to SD card</string>
+
+    <!-- Action that shares visible contacts -->
+    <string name="share_visible_contacts">"Udostępnij widoczne kontakty"</string>
+
+    <!-- One of alternatives shown when the system allows a user to select how many vCard files
+         should be imported. This message shows only when the system is certain that there's more
+         than one vCard files available in the system. -->
+    <string name="import_one_vcard_string">"Importuj jeden plik vCard"</string>
+
+    <!-- One of alternatives shown when the system allows a user to select how many vCard files
+         should be imported. This message shows only when the system is certain that there's more
+         than one vCard files available in the system. -->
+    <string name="import_multiple_vcard_string">"Importuj wiele plików vCard"</string>
+
+    <!-- One of alternatives shown when the system allows a user to select how many vCard files
+         should be imported. This message shows only when the system is certain that there's more
+         than one vCard files available in the system. -->
+    <string name="import_all_vcard_string">"Importuj wszystkie pliki vCard"</string>
+
+    <!-- Dialog message shown when searching VCard data from SD Card [CHAR LIMIT=NONE] -->
+    <string name="searching_vcard_message" product="nosdcard">"Wyszukiwanie danych vCard na karcie SD"</string>
+    <!-- Dialog message shown when searching VCard data from SD Card -->
+    <string name="searching_vcard_message" product="default">Searching for vCard data on SD card</string>
+
+    <!-- Dialog title shown when scanning VCard data failed. [CHAR LIMIT=NONE] -->
+    <string name="scanning_sdcard_failed_title" product="nosdcard">"Skanowanie karty SD nie powiodło się"</string>
+    <!-- Dialog title shown when scanning VCard data failed. -->
+    <string name="scanning_sdcard_failed_title" product="default">Scanning SD card failed</string>
+
+    <!-- Dialog message shown when searching VCard data failed.
+         An exact reason for the failure should [CHAR LIMIT=NONE] -->
+    <string name="scanning_sdcard_failed_message" product="nosdcard">"Skanowanie karty SD nie powiodło się (przyczyna: „%s”)"</string>
+    <!-- Dialog message shown when searching VCard data failed.
+         An exact reason for the failure should -->
+    <string name="scanning_sdcard_failed_message" product="default">Scanning SD card failed (Reason: \"<xliff:g id="fail_reason">%s</xliff:g>\")</string>
+
+    <!-- The failed reason shown when Contacts app (especially vCard importer/exporter)
+         emitted some I/O error. Exact reason will be appended by the system. -->
+    <string name="fail_reason_io_error">"Błąd wejścia/wyjścia"</string>
+
+    <!-- The failed reason shown when vCard parser was not able to be parsed by the current vCard
+         implementation. This might happen even when the input vCard is completely valid, though
+         we believe it is rather rare in the actual world. -->
+    <string name="fail_reason_vcard_parse_error">"Nie można zanalizować pliku vCard z nieoczekiwanego powodu"</string>
+
+    <!-- The failed reason shown when the current vCard importer cannot parse the file since the
+         parser is incomplete (actually, there's missing part in the current vCard parser, though
+         our understanding is that the functionality missed by the current vCard parser
+         is rarely needed in the actual vCard...). -->
+    <string name="fail_reason_vcard_not_supported_error">"Nie można zanalizować pliku vCard, mimo że prawdopodobnie ma on prawidłowy format. Bieżąca wersja go nie obsługuje."</string>
+
+    <!-- The failed reason shown when the system could not find any vCard file
+         (with extension ".vcf" in SDCard.) [CHAR LIMIT=NONE] -->
+    <string name="fail_reason_no_vcard_file" product="nosdcard">"Na karcie SD nie znaleziono żadnego pliku vCard"</string>
+    <!-- The failed reason shown when the system could not find any vCard file
+         (with extension ".vcf" in SDCard.) -->
+    <string name="fail_reason_no_vcard_file" product="default">No vCard file found on the SD card</string>
+
+    <!-- The failed reason shown when the import of some of vCard files failed during multiple vCard
+         files import. It includes the case where all files were failed to be imported. -->
+    <string name="fail_reason_failed_to_read_files">"Nie można zaimportować co najmniej jednego pliku (%s)."</string>
+
+    <!-- The failed reason which should not be shown but it may in some buggy condition. -->
+    <string name="fail_reason_unknown">"Nieznany błąd"</string>
+
+    <!-- Dialog title shown when a user is asked to select VCard file -->
+    <string name="select_vcard_title">"Wybierz plik vCard"</string>
+
+    <!-- The message shown while reading a vCard file/entry. The first argument is like
+    "Reading VCard" or "Reading VCard files" and the second is the display name of the current
+    data being parsed -->
+    <string name="progress_shower_message">"%1$s"\n"%2$s"</string>
+
+    <!-- Dialog title shown when reading VCard data -->
+    <string name="reading_vcard_title">"Odczytywanie danych vCard"</string>
+
+    <!-- Dialog message shown when reading a VCard file -->
+    <string name="reading_vcard_message">"Odczytywanie plików vCard"</string>
+
+    <!-- Dialog title shown when reading VCard data failed -->
+    <string name="reading_vcard_failed_title">"Odczytywanie danych vCard nie powiodło się"</string>
+
+    <!-- Message while reading one vCard file "(current number) of (total number) contacts" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
+    <string name="reading_vcard_contacts">"Kontakt %1$s z %2$s"</string>
+
+    <!-- Message while reading multiple vCard files "(current number) of (total number) files" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
+    <string name="reading_vcard_files">"plik %1$s z %2$s"</string>
+
+    <!-- Dialog title shown when a user confirms whether he/she export Contact data -->
+    <string name="confirm_export_title">"Potwierdź eksport"</string>
+
+    <!-- Dialog message shown when a user confirms whether he/she export Contact data -->
+    <string name="confirm_export_message">"Czy na pewno chcesz wyeksportować listę kontaktów do pliku „%s”?"</string>
+
+    <!-- Dialog title shown when exporting Contact data failed -->
+    <string name="exporting_contact_failed_title">"Nie można wyeksportować danych kontaktu"</string>
+
+    <!-- Dialog message shown when exporting Contact data failed -->
+    <string name="exporting_contact_failed_message">"Nie można wyeksportować danych kontaktu."\n"Przyczyna niepowodzenia: „%s”."</string>
+
+    <!-- The failed reason shown when there's no contact which is allowed to be exported.
+         Note that user may have contacts data but all of them are probably not allowed to be
+         exported because of security/permission reasons. -->
+    <string name="fail_reason_no_exportable_contact">"Brak kontaktów, które można wyeksportować"</string>
+
+    <!-- The failed reason shown when vCard exporter could not create a file for the vCard since
+         there are too many files relevant to vCard. [CHAR LIMIT=NONE] -->
+    <string name="fail_reason_too_many_vcard" product="nosdcard">"Zbyt dużo plików vCard na karcie SD"</string>
+    <!-- The failed reason shown when vCard exporter could not create a file for the vCard since
+         there are too many files relevant to vCard. -->
+    <string name="fail_reason_too_many_vcard" product="default">Too many vCard files on the SD card</string>
+
+    <!-- The failed reason shown when the given file name is too long for the system.
+         The length limit of each file is different in each Android device, so we don't need to
+         mention it here. -->
+    <string name="fail_reason_too_long_filename">"Wymagana nazwa pliku jest zbyt długa („%s”)"</string>
+
+    <!-- Dialog title shown when the application is exporting contact data outside -->
+    <string name="exporting_contact_list_title">"Eksportowanie danych kontaktowych"</string>
+
+    <!-- Message shown when the application is exporting contact data outside -->
+    <string name="exporting_contact_list_message">"Eksportowanie danych kontaktowych do pliku „%s”"</string>
+
+    <!-- The failed reason shown when contacts exporter fails to be initialized.
+         Some exact reason must follow this. -->
+    <string name="fail_reason_could_not_initialize_exporter">"Nie można zainicjować programu eksportującego: „%s”"</string>
+
+    <!-- The failed reason shown when some error happend during contacts export.
+         Some exact reason must follow this. -->
+    <string name="fail_reason_error_occurred_during_export">"Wystąpił błąd podczas eksportowania: „%s”"</string>
+
+    <!-- The error reason the vCard composer "may" emit when database is corrupted or
+         something is going wrong. Usually users should not see this text. -->
+    <string name="composer_failed_to_get_database_infomation">"Nie można pobrać informacji o bazie danych"</string>
+
+    <!-- This error message shown when the user actually have no contact
+         (e.g. just after data-wiping), or, data providers of the contact list prohibits their
+         contacts from being exported to outside world via vcard exporter, etc. -->
+    <string name="composer_has_no_exportable_contact">"Brak kontaktów, które można wyeksportować. Jeśli faktycznie masz kontakty w telefonie, wyeksportowanie któregokolwiek z nich poza telefon może być zabronione przez dostawcę danych."</string>
+
+    <!-- The error reason the vCard composer may emit when vCard composer is not initialized
+         even when needed.
+         Users should not usually see this error message. -->
+    <string name="composer_not_initialized">"Obiekt tworzenia danych vCard nie został poprawnie zainicjowany"</string>
+
+    <!-- The failed reason shown when vCard importer/exporter could not open the file
+         specified by a user. The file name should be in the message. -->
+    <string name="fail_reason_could_not_open_file">"Nie można otworzyć pliku „%1$s”: %2$s"</string>
+
+    <!-- Message in progress bar while exporting contact list to a file "(current number) of (total number) contacts" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
+    <string name="exporting_contact_list_progress">"Kontakt %1$s z %2$s"</string>
+
+    <!-- The string used to describe Contacts as a searchable item within system search settings. -->
+    <string name="search_settings_description">"Imiona i nazwiska oraz nazwy w Twoich kontaktach"</string>
+
+    <!-- Menu items for dialpad options as part of Pause and Wait ftr -->
+    <string name="add_2sec_pause">"Dodaj 2-sekundową pauzę"</string>
+    <string name="add_wait">"Dodaj oczekiwanie"</string>
+
+    <!-- Title for the call disambiguation dialog -->
+    <string name="call_disambig_title">"Zadzwoń przy użyciu"</string>
+
+    <!-- Title for the sms disambiguation dialog -->
+    <string name="sms_disambig_title">"Wyślij SMS przy użyciu"</string>
+
+    <!-- Message next to disamgiguation dialog check box -->
+    <string name="make_primary">"Zapamiętaj ten wybór"</string>
+
+    <!-- Shown as a toast when the user taps on a Fast-Track icon, and no application
+         was found that could perform the selected action -->
+    <string name="quickcontact_missing_app">"Nie znaleziono aplikacji do obsługi tej akcji"</string>
+
+    <!-- Shown as the checkbox label that, when checked, will store remember the
+         selected choice and shortcut to it in the future.  For example, this would
+         make a selected phone number the default. -->
+    <string name="quickcontact_remember_choice">"Zapamiętaj ten wybór"</string>
+
+    <!-- Shown as the header name for a person when the name is missing or unknown. -->
+    <string name="quickcontact_missing_name">"Nieznane"</string>
+
+    <!-- Text that is shown in the Badge, when there is no data to display -->
+    <string name="quickcontact_no_data">Brak danych</string>
+
+    <!-- The menu item to open the list of accounts -->
+    <string name="menu_accounts">"Konta"</string>
+
+    <!-- The menu item to bulk import or bulk export contacts from SIM card or SD card. -->
+    <string name="menu_import_export">"Importuj/eksportuj"</string>
+
+    <!-- Dialog title when selecting the bulk operation to perform from a list. -->
+    <string name="dialog_import_export">"Importuj/eksportuj kontakty"</string>
+
+    <!-- The menu item to share the currently viewed contact -->
+    <string name="menu_share">"Udostępnij"</string>
+
+    <!-- Dialog title when picking the application to share a contact with. -->
+    <string name="share_via">"Udostępnij kontakt przez"</string>
+
+    <!-- Toast indicating that sharing a contact has failed. -->
+    <string name="share_error">"Tego kontaktu nie można udostępniać."</string>
+
+    <!-- Header that expands to list all name types when editing a structured name of a contact -->
+    <string name="nameLabelsGroup">"Nazwa"</string>
+    <!-- Header that expands to list all nickname types when editing a nickname of a contact -->
+    <string name="nicknameLabelsGroup">"Pseudonim"</string>
+    <!-- Header that expands to list all organization types when editing an organization of a contact -->
+    <string name="organizationLabelsGroup">"Organizacja"</string>
+    <!-- Header that expands to list all website types when editing a website of a contact -->
+    <string name="websiteLabelsGroup">"Adres witryny"</string>
+    <!-- Header that expands to list all event types when editing an event of a contact -->
+    <string name="eventLabelsGroup">"Wydarzenie"</string>
+
+    <!-- Single-character overlay for home phone numbers when creating desktop shortcuts -->
+    <string name="type_short_home">"D"</string>
+    <!-- Single-character overlay for mobile phone numbers when creating desktop shortcuts -->
+    <string name="type_short_mobile">"K"</string>
+    <!-- Single-character overlay for work phone numbers when creating desktop shortcuts -->
+    <string name="type_short_work">"S"</string>
+    <!-- Single-character overlay for pager phone numbers when creating desktop shortcuts -->
+    <string name="type_short_pager">"P"</string>
+    <!-- Single-character overlay for other phone numbers when creating desktop shortcuts -->
+    <string name="type_short_other">"I"</string>
+
+    <!-- In edit dialog, shown if the contact is marked as being read-only -->
+    <string name="edit_read_only">"Ten kontakt jest tylko do odczytu"</string>
+
+    <!-- Shown as the header title over a collapsible section that, by default, hides
+         secondary contact detail edit fields, such as birthday. -->
+    <string name="edit_secondary_collapse">"Więcej"</string>
+
+    <string name="dialog_primary_name">"Nazwa główna"</string>
+    <string name="dialog_new_contact_account">"Utwórz kontakt na koncie"</string>
+
+    <string name="menu_sync_remove">"Usuń grupę synchronizacji"</string>
+    <string name="dialog_sync_add">"Dodaj grupę synchronizacji"</string>
+    <string name="display_more_groups">"Więcej grup..."</string>
+
+    <!-- List title for a special contacts group that covers all contacts.-->
+    <string name="display_ungrouped">"Wszystkie inne kontakty"</string>
+
+    <!-- List title for a special contacts group that covers all contacts that
+         aren't members of any other group. -->
+    <string name="display_all_contacts">"Wszystkie kontakty"</string>
+
+    <!-- Warning message given to users just before they remove a currently syncing
+         group that would also cause all ungrouped contacts to stop syncing. -->
+    <string name="display_warn_remove_ungrouped">"Usunięcie grupy „%s” z ustawień synchronizacji spowoduje również usunięcie wszelkich rozgrupowanych kontaktów z tych ustawień."</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the phone
+         and will not be synced. -->
+    <string name="account_phone">"Tylko telefon, brak synchronizacji"</string>
+
+    <!-- Action string for calling a custom phone number -->
+    <string name="call_custom">"Połącz – %s"</string>
+    <!-- Action string for calling a home phone number -->
+    <string name="call_home">"Połącz – domowy"</string>
+    <!-- Action string for calling a mobile phone number -->
+    <string name="call_mobile">"Połącz – komórka"</string>
+    <!-- Action string for calling a work phone number -->
+    <string name="call_work">"Połącz – służbowy"</string>
+    <!-- Action string for calling a work fax phone number -->
+    <string name="call_fax_work">"Połącz – faks służbowy"</string>
+    <!-- Action string for calling a home fax phone number -->
+    <string name="call_fax_home">"Połącz – faks domowy"</string>
+    <!-- Action string for calling a pager phone number -->
+    <string name="call_pager">"Połącz – pager"</string>
+    <!-- Action string for calling an other phone number -->
+    <string name="call_other">"Zadzwoń"</string>
+    <!-- Action string for calling a callback number -->
+    <string name="call_callback">"Zadzwoń – połączenie zwrotne"</string>
+    <!-- Action string for calling a car phone number -->
+    <string name="call_car">"Połącz – samochód"</string>
+    <!-- Action string for calling a company main phone number -->
+    <string name="call_company_main">"Połącz – firmowy główny"</string>
+    <!-- Action string for calling a ISDN phone number -->
+    <string name="call_isdn">"Zadzwoń – ISDN"</string>
+    <!-- Action string for calling a main phone number -->
+    <string name="call_main">"Zadzwoń pod nr główny"</string>
+    <!-- Action string for calling an other fax phone number -->
+    <string name="call_other_fax">"Zadzwoń – faks"</string>
+    <!-- Action string for calling a radio phone number -->
+    <string name="call_radio">"Połącz – radio"</string>
+    <!-- Action string for calling a Telex phone number -->
+    <string name="call_telex">"Połącz – teleks"</string>
+    <!-- Action string for calling a TTY/TDD phone number -->
+    <string name="call_tty_tdd">"Zadzwoń – TTY/TDD"</string>
+    <!-- Action string for calling a work mobile phone number -->
+    <string name="call_work_mobile">"Połącz – służbowa komórka"</string>
+    <!-- Action string for calling a work pager phone number -->
+    <string name="call_work_pager">"Połącz – pager służbowy"</string>
+    <!-- Action string for calling an assistant phone number -->
+    <string name="call_assistant">"Zadzwoń – %s"</string>
+    <!-- Action string for calling a MMS phone number -->
+    <string name="call_mms">"Połącz – MMS"</string>
+
+    <!-- Action string for sending an SMS to a custom phone number -->
+    <string name="sms_custom">"Tekst – %s"</string>
+    <!-- Action string for sending an SMS to a home phone number -->
+    <string name="sms_home">"Tekst – domowy"</string>
+    <!-- Action string for sending an SMS to a mobile phone number -->
+    <string name="sms_mobile">"SMS – komórka"</string>
+    <!-- Action string for sending an SMS to a work phone number -->
+    <string name="sms_work">"Tekst – służbowy"</string>
+    <!-- Action string for sending an SMS to a work fax phone number -->
+    <string name="sms_fax_work">"Tekst – faks służbowy"</string>
+    <!-- Action string for sending an SMS to a home fax phone number -->
+    <string name="sms_fax_home">"Tekst – faks domowy"</string>
+    <!-- Action string for sending an SMS to a pager phone number -->
+    <string name="sms_pager">"Tekst – pager"</string>
+    <!-- Action string for sending an SMS to an other phone number -->
+    <string name="sms_other">"SMS"</string>
+    <!-- Action string for sending an SMS to a callback number -->
+    <string name="sms_callback">"SMS – numer zwrotny"</string>
+    <!-- Action string for sending an SMS to a car phone number -->
+    <string name="sms_car">"Tekst – samochód"</string>
+    <!-- Action string for sending an SMS to a company main phone number -->
+    <string name="sms_company_main">"Tekst – firmowy główny"</string>
+    <!-- Action string for sending an SMS to a ISDN phone number -->
+    <string name="sms_isdn">"SMS – ISDN"</string>
+    <!-- Action string for sending an SMS to a main phone number -->
+    <string name="sms_main">"SMS – nr główny"</string>
+    <!-- Action string for sending an SMS to an other fax phone number -->
+    <string name="sms_other_fax">"SMS – faks"</string>
+    <!-- Action string for sending an SMS to a radio phone number -->
+    <string name="sms_radio">"Tekst – radio"</string>
+    <!-- Action string for sending an SMS to a Telex phone number -->
+    <string name="sms_telex">"SMS – teleks"</string>
+    <!-- Action string for sending an SMS to a TTY/TDD phone number -->
+    <string name="sms_tty_tdd">"SMS – TTY/TDD"</string>
+    <!-- Action string for sending an SMS to a work mobile phone number -->
+    <string name="sms_work_mobile">"SMS – służbowa komórka"</string>
+    <!-- Action string for sending an SMS to a work pager phone number -->
+    <string name="sms_work_pager">"SMS – pager służbowy"</string>
+    <!-- Action string for sending an SMS to an assistant phone number -->
+    <string name="sms_assistant">"SMS – %s"</string>
+    <!-- Action string for sending an SMS to a MMS phone number -->
+    <string name="sms_mms">"Tekst – wiadomość MMS"</string>
+
+    <!-- Action string for sending an email to a home email address -->
+    <string name="email_home">"E-mail – domowy"</string>
+    <!-- Action string for sending an email to a mobile email address -->
+    <string name="email_mobile">"E-mail – komórka"</string>
+    <!-- Action string for sending an email to a work email address -->
+    <string name="email_work">"E-mail – służbowy"</string>
+    <!-- Action string for sending an email to an other email address -->
+    <string name="email_other">"E-mail"</string>
+    <!-- Action string for sending an email to a custom email address -->
+    <string name="email_custom">"E-mail – %s"</string>
+
+    <!-- Generic action string for sending an email -->
+    <string name="email">"E-mail"</string>
+
+    <!-- Action string for viewing a home postal address -->
+    <string name="map_home">"Wyświetl adres domowy"</string>
+    <!-- Action string for viewing a work postal address -->
+    <string name="map_work">"Wyświetl adres służbowy"</string>
+    <!-- Action string for viewing an other postal address -->
+    <string name="map_other">"Wyświetl adres"</string>
+    <!-- Action string for viewing a custom postal address -->
+    <string name="map_custom">"Wyświetl adres: %s"</string>
+
+    <!-- Action string for starting an IM chat with the AIM protocol -->
+    <string name="chat_aim">"Czat w AIM"</string>
+    <!-- Action string for starting an IM chat with the MSN or Windows Live protocol -->
+    <string name="chat_msn">"Czat w Windows Live"</string>
+    <!-- Action string for starting an IM chat with the Yahoo protocol -->
+    <string name="chat_yahoo">"Czat w Yahoo"</string>
+    <!-- Action string for starting an IM chat with the Skype protocol -->
+    <string name="chat_skype">"Czat w Skype"</string>
+    <!-- Action string for starting an IM chat with the QQ protocol -->
+    <string name="chat_qq">"Czat w QQ"</string>
+    <!-- Action string for starting an IM chat with the Google Talk protocol -->
+    <string name="chat_gtalk">"Czat w Google Talk"</string>
+    <!-- Action string for starting an IM chat with the ICQ protocol -->
+    <string name="chat_icq">"Czat w ICQ"</string>
+    <!-- Action string for starting an IM chat with the Jabber protocol -->
+    <string name="chat_jabber">"Czat w Jabberze"</string>
+
+    <!-- Generic action string for starting an IM chat -->
+    <string name="chat">"Czat"</string>
+
+    <!-- Field title for the street of a structured postal address of a contact -->
+    <string name="postal_street">"Ulica"</string>
+    <!-- Field title for the PO box of a structured postal address of a contact -->
+    <string name="postal_pobox">"Skrytka pocztowa"</string>
+    <!-- Field title for the neighborhood of a structured postal address of a contact -->
+    <string name="postal_neighborhood">"Dzielnica"</string>
+    <!-- Field title for the city of a structured postal address of a contact -->
+    <string name="postal_city">"Miasto"</string>
+    <!-- Field title for the region, or state, of a structured postal address of a contact -->
+    <string name="postal_region">"Województwo"</string>
+    <!-- Field title for the postal code of a structured postal address of a contact -->
+    <string name="postal_postcode">"Kod pocztowy"</string>
+    <!-- Field title for the country of a structured postal address of a contact -->
+    <string name="postal_country">"Kraj"</string>
+
+    <!-- Field title for the given name of a contact -->
+    <string name="name_given">"Imię"</string>
+    <!-- Field title for the family name of a contact -->
+    <string name="name_family">"Nazwisko"</string>
+    <!-- Field title for the prefix name of a contact -->
+    <string name="name_prefix">"Przedrostek nazwiska"</string>
+    <!-- Field title for the middle name of a contact -->
+    <string name="name_middle">"Drugie imię"</string>
+    <!-- Field title for the suffix name of a contact -->
+    <string name="name_suffix">"Przyrostek nazwiska"</string>
+    <!-- Field title for the phonetic given name of a contact -->
+    <string name="name_phonetic_given">"Imię (fonetycznie)"</string>
+    <!-- Field title for the phonetic middle name of a contact -->
+    <string name="name_phonetic_middle">"Drugie imię (fonetycznie)"</string>
+    <!-- Field title for the phonetic family name of a contact -->
+    <string name="name_phonetic_family">"Nazwisko (fonetycznie)"</string>
+
+    <!-- Field title for the date for an event -->
+    <string name="label_date">Data</string>
+
+    <!-- Title of clear button in date picker -->
+    <string name="button_clear_date">Wyczyść</string>
+
+    <!-- String describing which account type a contact came from when editing it -->
+    <string name="account_type_format">"Kontakt %1$s"</string>
+
+    <!-- String describing which account a contact came from when editing it -->
+    <string name="from_account_format">"z %1$s"</string>
+
+    <!-- Checkbox asking the user if they want to display a particular photo for a contact -->
+    <string name="use_photo_as_primary">"Użyj tego zdjęcia"</string>
+
+    <!-- Text used to explain that a contact cannot be edited since the data is read only -->
+    <string name="contact_read_only">"W tym urządzeniu nie można edytować informacji kontaktowych %1$s."</string>
+
+    <!-- Text describing that a contact has no information available other than name and photo -->
+    <string name="no_contact_details">"Brak dodatkowych informacji dla tego kontaktu"</string>
+
+    <!-- Label of the "sort list by" display option -->
+    <string name="display_options_sort_list_by">"Sortuj listę według"</string>
+
+    <!-- An allowable value for the "sort list by" contact display option  -->
+    <string name="display_options_sort_by_given_name">"Imię"</string>
+
+    <!-- An allowable value for the "sort list by" contact display option  -->
+    <string name="display_options_sort_by_family_name">"Nazwisko"</string>
+
+    <!-- Label of the "view names as" display option -->
+    <string name="display_options_view_names_as">"Wyświetl nazwy kontaktów jako"</string>
+
+    <!-- An allowable value for the "view names as" contact display option  -->
+    <string name="display_options_view_given_name_first">"Najpierw imię"</string>
+
+    <!-- An allowable value for the "view names as" contact display option  -->
+    <string name="display_options_view_family_name_first">"Najpierw nazwisko"</string>
+
+    <!-- Gray hint displayed in the search field in Contacts when empty -->
+    <string name="search_bar_hint">"Szukaj kontaktów"</string>
+
+    <!-- Button displayed underneath the list of filtered visible contacts -->
+    <string name="search_for_all_contacts">"Szukaj wszystkich kontaktów"</string>
+
+    <!-- An option in the 'change photo' or 'pick photo' dialog -->
+    <string name="take_photo">"Zrób zdjęcie"</string>
+
+    <!-- An option in the 'change photo' or 'pick photo' dialog -->
+    <string name="pick_photo">"Wybierz zdjęcie z galerii"</string>
+
+    <!-- Text shown in the contacts app while the background process updates contacts after a locale change -->
+    <string name="locale_change_in_progress">"Lista kontaktów jest aktualizowana, aby odzwierciedlić zmianę języka."\n\n"Czekaj..."</string>
+
+    <!-- Text shown in the contacts app while the background process updates contacts after a system upgrade -->
+    <string name="upgrade_in_progress">"Lista kontaktów jest aktualizowana."\n\n"Czekaj..."</string>
+
+    <!-- Text shown in the contacts app if the background process updating contacts fails because of memory shortage -->
+    <string name="upgrade_out_of_memory">"Trwa proces uaktualniania kontaktów. "\n\n"Proces uaktualniania wymaga w przybliżeniu %d MB wewnętrznej pamięci telefonu."\n\n"Wybierz jedną z następujących opcji:"</string>
+
+    <!-- Button shown in the contacts app if the background process updating contacts fails because of memory shortage -->
+    <string name="upgrade_out_of_memory_uninstall">"Odinstaluj część aplikacji"</string>
+
+    <!-- Button shown in the contacts app if the background process updating contacts fails because of memory shortage -->
+    <string name="upgrade_out_of_memory_retry">"Ponów próbę uaktualnienia"</string>
+
+    <!-- Title shown in the search result activity of contacts app -->
+    <string name="search_results_for">"Wyniki wyszukiwania dla: %s"</string>
+
+    <!-- Title shown in the search result activity of contacts app while searching -->
+    <string name="search_results_searching">"Trwa wyszukiwanie..."</string>
+
+    <!-- Checkbox whether to provide a year for a birthday [CHAR LIMIT=30] -->
+    <string name="date_year_toggle">"Podaj rok"</string>
+
+    <string name="date_format_short_no_year">dd.MM.</string>
+    <string name="date_format_full_no_year">d MMMM</string>
+
+    <!-- Wysie: Menu strings -->
+    <string name="menu_preferences">Ustawienia</string>
+    
+    <!-- Wysie: Dialer strings -->
+    <string name="dialer_menu_sms">SMS/MMS</string>
+    
+    <!-- Wysie: Call log strings -->
+    <string name="recent_calls_clear_call_log">Wyczyść rejestr rozmów</string>
+    <string name="recent_calls_clear_what">Co usunąć?</string>
+    <string name="recent_calls_clear_all">Wszystko</string>
+    <string name="recent_calls_clear_incoming">Przychodzące</string>
+    <string name="recent_calls_clear_outgoing">Wychodzące</string>
+    <string name="recent_calls_clear_missed">Nieodebrane</string>
+    <string name="alert_clear_call_log_title">Wyczyść rejestr rozmów</string>
+    <string name="alert_clear_call_log_message">Czy napewno chcesz usunąć cały rejestr rozmów?</string>
+    <string name="alert_clear_cl_all_incoming">Czy napewno chcesz usunąć rejetr połączeń przychodzących?</string>
+    <string name="alert_clear_cl_all_outgoing">Czy napewno chcesz usunąć rejestr połączeń wychodzących?</string>
+    <string name="alert_clear_cl_all_missed">Czy napewno chcesz usunąć rejestr połączeń nieodebranych?</string>
+    
+    <!-- Wysie: Favourites strings -->
+    <string name="fav_clear_freq">Wyczyść najczęściej wybierane</string>
+    <string name="alert_clear_freq_called_msg">Czy napewno chcesz usunąć rejestr najczęściej wybieranych połączeń?</string>
+    
+    <!-- Wysie: Preferences strings -->
+    
+    <!-- Preferences: Dialer -->
+    <string name="title_last_dialled">Przycisk wybierania przywraca ostatni numer</string>
+    <string name="summary_last_dialled">Ostatni użyty numer zostanie przywrócony jeśli pole numeru jest puste</string>
+    <string name="title_return_to_dialer">Powróć do wybierania po połączeniu</string>
+    <string name="title_vm_button">Lewy przycisk akcji (LAB)</string>
+    <string name="title_vm_handler">Obsługa poczty głosowej</string>
+    <string name="title_use_1_for_reg_vm">Użyj 1 dla poczty głosowej</string>
+    <string name="summaryon_use_1_for_reg_vm">Przycisk 1 będzie zarezerwowany dla zwykłej poczty głosowej</string>
+    <string name="summaryoff_use_1_for_reg_vm">Przycisk 1 będzie zarezerwowany dla obsługi poczty głosowej</string>
+    <string name="title_disable_num_check">Wyłącz sprawdzanie numeru</string>
+    <string name="summaryon_disable_num_check">Lewy przycisk akcji (LAB) i menu będą zawsze dostępne</string>
+    <string name="summaryoff_disable_num_check">LAB and menu jedynie gdy wprowadzona jest conajmniej jedna cyfra (oprócz poczty głosowej)</string>
+    <string name="title_enable_haptic_feedback">Włącz reakcję na dotyk</string>
+    <string name="summary_enable_haptic_feedback">Uaktywnia reakcję na dotyk - do dostosowania w ustawieniach CyanogenMod</string>
+    <string name="title_change_digits_color">Zmień kolor cyfr</string>
+    <string name="title_digits_color_pressed">Kolor cyfr (wciśnięte)</string>
+    <string name="title_digits_color_focused">Kolor cyfr (wybrane)</string>
+    <string name="title_digits_color_unselected">Kolor cyfr (nie wybrane)</string>
+    <string name="title_choose_color">Wybierz kolor</string>
+    <string name="instructions_choose_color">Puknij na środku, by potwierdzić.\nWciśnij wstecz, by anulować.</string>
+    <string name="entry_no_vm_handler">Wybierz numer poczty głosowej</string>
+    
+    <!-- Preferences: Call log -->
+    <string name="title_cl_exact_time">Dokładny czas</string>
+    <string name="summaryon_cl_exact_time">Pokaż dokładny czas w rejestrze rozmów</string>
+    <string name="summaryoff_cl_exact_time">Pokaż odstęp czasu w rejestrze rozmów</string>
+    <string name="title_cl_show_seconds">Pokaż sekundy</string>
+    <string name="summary_cl_show_seconds">Pokazuje sekundy przy dokładnym czasie</string>          
+    <string name="title_cl_ask_before_clear">Zapytaj przed wyczyszczeniem</string>
+    <string name="summaryon_cl_ask_before_clear">Zapytaj przed wyczyszczeniem rejestru rozmów</string>
+    <string name="summaryoff_cl_ask_before_clear">Rejestr rozmów będzie wyczyszczony bez potwierdzenia</string>
+    
+    <!-- Preferences: Contacts -->
+    <string name="title_contacts_show_pic">Pokaż obrazek kontaktu</string>
+    <string name="title_contacts_show_dial_button">Pokaż przycisk wybierania</string>
+    <string name="summary_contacts_show_dial_button">Pokaż przycisk wybierania obok kontaktów z numerem</string>
+    <string name="title_contacts_show_count">Pokaż ilość kontaktów</string>
+    <string name="summary_contacts_show_count">Na początku listy kontaktów będzie wyświetlana ich ilość</string>
+    <string name="title_contacts_show_separators">Oddziel litery alfabetu</string>
+    <string name="summaryon_contacts_show_separators">Litery alfabetu będą pokazane na liście kontaktów</string>
+    <string name="summaryoff_contacts_show_separators">Litery alfabetu będą ukryte</string>
+    
+    <!-- Preferences: Contacts - View Contact -->
+    <string name="title_view_contact">Pokaż kontakt</string>
+    <string name="summary_view_contact">Ustawienia wyświetlania kontaktu</string>
+    <string name="title_show_text_mobile_only">Wiadomości tekstowe tylko dla komórek</string>
+    <string name="summaryon_show_text_mobile_only">Tylko numery komórkowe będą miały opcje wysłania wiadomości</string>
+    <string name="summaryoff_show_text_mobile_only">Wszystkie numery będą miały opcje wysłania wiadomości</string>
+    
+    <!-- Preferences: Favourites -->
+    <string name="title_favourites_hide_freq_call">Ukryj częste kontakty</string>
+    <string name="summary_favourites_hide_freq_call">Dane nie są usunięte, ale ukryte.</string>
+    <string name="title_favs_ask_before_clear">Zapytaj przed usunięciem</string>
+    <string name="summaryon_favs_ask_before_clear">Zapytaj przed usunięciem najczęściej wybieranych numerów</string>
+    <string name="summaryoff_favs_ask_before_clear">Najczęściej wybierane numery będą usuwane bez pytania</string>
+    
+    <!-- Preferences: Misc -->
+    <string name="title_misc_category">Inne</string>
+    <string name="title_sensor_rotation">Włącz obsługę obrotu ekranu</string>
+    <string name="summary_sensor_rotation">Jeśli włączone, ekran będzie obracany według ustawień systemowych"</string>
+    <string name="title_data_font_size">Rozmiar czcionki informacji o kontakcie</string>
+    <string name="summary_data_font_size">Pozwala wybrać rozmiar czcionki szczegółowych informacji o kontakcie</string>
+    <string name="title_default_phone_tab">Domyślna zakładka</string>
+    <string name="summary_default_phone_tab">Domyślna zakładka otwierana gdy aplikacja telefonu jest uruchamiana.</string>
+
+    <!-- Default Phone Tab strings -->
+    <string name="default_phone_tab_last_used">Ostatnio używane połączenia (Domyślne)</string>
+    <string name="default_phone_tab_last_viewed">Ostatnio przeglądane</string>
+    <string name="default_phone_tab_phone">Telefon</string>
+    <string name="default_phone_tab_call_log">Rejestr połączeń</string>
+    <string name="default_phone_tab_contacts">Kontakty</string>
+    <string name="default_phone_tab_favorites">Ulubione</string>
+    
+    <!-- Wysie: About strings -->    
+    <string name="title_about">O programie</string>
+    <string name="title_about_name">Nazwa modyfikacji</string>
+    <string name="summary_about_name">WyContacts Froyo</string>
+    <string name="title_about_version">Wersja</string>
+    <string name="summary_about_version">1.2</string>
+    <string name="title_about_credits">Podziękowania</string>
+    <string name="summary_about_credits">Wysie, ChainsDD, geesun, niuchl, rac2030, sileht and the rest of XDA! :)</string>
+
+    <string name="t9_loading">Ładowanie\u2026</string>
+    <string name="t9_default_sort">1</string>
+    <string name="t9_sort_title">T9 - tryb sortowania</string>
+    <string name="t9_sort_summary">Ustaw sortowanie wyników T9</string>
+    <string name="t9_sort_name">Najpierw imiona/nazwiska</string>
+    <string name="t9_sort_number">Najpierw numery</string>
+    <string name="t9_state_title">Włącz wybieranie T9</string>
+    <string name="t9_state_summary">Włącz wybieranie T9 w programie dzwoniącym</string>
+    <string name="t9_dial_click_title">Dzwoń do wybranego kontaktu</string>
+    <string name="t9_dial_click_summary">Zadzwoń do kontaktu wybranego z wyników</string>
+    <string name="t9_add_to_contacts">Dodaj do kontaktów</string>
+    <string name="t9_map_row_2">2abcàáâäåąɑæçǽćčá</string>
+    <string name="t9_map_row_3">3deféèêëę</string>
+    <string name="t9_map_row_4">4ghiíìïîǵ</string>
+    <string name="t9_map_row_5">5jklḱḱĺł</string>
+    <string name="t9_map_row_6">6mnoòóöôøñŋńǿḿńő</string>
+    <string name="t9_map_row_7">7pqrsßɾṕŕśřš</string>
+    <string name="t9_map_row_8">8tuvúùüûű</string>
+    <string name="t9_map_row_9">9wxyzýẃżź</string>
+</resources>

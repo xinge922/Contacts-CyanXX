@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	 <QuickContactBadge android:id="@+id/rowBadge" android:focusable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:gravity="center_vertical" android:id="@+id/rowName" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5" />
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5">
+            <TextView android:gravity="center_vertical" android:id="@+id/rowNumber" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.2" />
+            <TextView android:gravity="right|center" android:id="@+id/city" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.3" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
